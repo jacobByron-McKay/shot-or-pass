@@ -1,0 +1,14 @@
+# StatsBomb data is fetched at runtime, never committed
+data-raw/
+cache/
+
+# exploratory working and private notes
+scratch/
+INTERVIEW-PREP.md
+
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+__pycache__/
