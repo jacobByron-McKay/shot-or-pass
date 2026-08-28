@@ -49,7 +49,7 @@ polygon_area <- function(pts) {
 #' Clip a polygon to the half plane x >= cut, Sutherland-Hodgman.
 #'
 #' The camera only shows part of the pitch. To ask how much of the area *ahead
-#' of a shooter* was on screen, the visible polygon has to be cut at her x
+#' of a shooter* was on screen, the visible polygon has to be cut at that x
 #' position first.
 clip_to_halfplane <- function(pts, cut) {
   n <- nrow(pts)

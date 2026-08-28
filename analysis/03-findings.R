@@ -36,7 +36,7 @@ text <- sprintf('
 
 The tournament gives %d shots across %d matches, excluding penalties. Every one
 carries a freeze frame, so for each shot we know where the players the camera
-could see were standing. On average a shooter had %s teammates ahead of her.
+could see were standing. On average a shooter had %s teammates ahead of them.
 
 ## A shot model that uses the freeze frames
 
@@ -87,7 +87,7 @@ are in without running it.
 
 The freeze frames only cover what was on screen. The area ahead of the shooter
 was in view a median of %s per cent of the time, so roughly %s per cent of the
-space she might have played into is missing from the record. Counting available
+space they might have played into is missing from the record. Counting available
 options from this data means counting the options a broadcast director chose to
 frame. That censoring is measurable and it is real. Tested against the verdict
 above, it does not move it, which was not the answer expected when the test was

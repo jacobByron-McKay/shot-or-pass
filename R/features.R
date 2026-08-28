@@ -16,7 +16,7 @@ frame_players <- function(frame) {
 
 #' Everyone the shooter could have played forward to, with their own geometry.
 #'
-#' A teammate only counts as an option if she is closer to goal than the
+#' A teammate only counts as an option if they are closer to goal than the
 #' shooter. Square and backward passes are not alternatives to shooting.
 passing_options <- function(players, shot_x, shot_y) {
   opp   <- players[!players$teammate & !players$keeper, ]

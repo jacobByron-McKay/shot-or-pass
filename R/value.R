@@ -1,5 +1,5 @@
-## What a shot was worth, and what the best thing she could have done instead
-## was worth.
+## What a shot was worth, and what the best thing the player could have done
+## instead was worth.
 
 #' Fit a shot value model on the tournament's own shots.
 #'

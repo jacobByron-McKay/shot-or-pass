@@ -1,7 +1,7 @@
 ## The camera hypothesis, run properly.
 ##
 ## The claim was that when less of the pitch ahead of a shooter is on screen,
-## fewer of her options get recorded, so the shot ends up looking more justified
+## fewer of their options get recorded, so the shot ends up looking more justified
 ## than it was. A single regression said no. A single regression saying no is
 ## not worth much, so this runs it across every plausible model, control set and
 ## subset and looks at the whole distribution.

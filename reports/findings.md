@@ -2,7 +2,7 @@
 
 The tournament gives 1566 shots across 64 matches, excluding penalties. Every one
 carries a freeze frame, so for each shot we know where the players the camera
-could see were standing. On average a shooter had 2.26 teammates ahead of her.
+could see were standing. On average a shooter had 2.26 teammates ahead of them.
 
 ## A shot model that uses the freeze frames
 
@@ -53,7 +53,7 @@ are in without running it.
 
 The freeze frames only cover what was on screen. The area ahead of the shooter
 was in view a median of 69.6 per cent of the time, so roughly 30.4 per cent of the
-space she might have played into is missing from the record. Counting available
+space they might have played into is missing from the record. Counting available
 options from this data means counting the options a broadcast director chose to
 frame. That censoring is measurable and it is real. Tested against the verdict
 above, it does not move it, which was not the answer expected when the test was

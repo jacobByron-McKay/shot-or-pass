@@ -12,7 +12,7 @@ giving the positions of the players the broadcast camera could see.
 
 Deciding whether a shot was the right call takes four further decisions. Which
 teammates count as a real option. How likely a pass is to arrive. Whether the
-receiver is valued using her positional context or on distance alone. How much
+receiver is valued using positional context or on distance alone. How much
 better the alternative has to be before you call the shot wrong.
 
 Run all 36 combinations and the share of shots where shooting beat the best
@@ -96,7 +96,7 @@ the day it does not.
 ## The camera hypothesis, and how it died
 
 The freeze frames only cover what was on screen. The area ahead of a shooter was
-in frame a median of 69.6% of the time, so roughly 30% of the space she might
+in frame a median of 69.6% of the time, so roughly 30% of the space a shooter might
 have played into is missing from the record entirely.
 
 That should bias the verdict. Less of the pitch visible means fewer options
@@ -161,13 +161,13 @@ What is different here is not the question. It is running the answer 36 times.
 ## Limitations
 
 Freeze frames carry no player identities, only a flag for teammate or opponent.
-So a shooter's decision can be attributed to her, but the teammate she should
-have found stays anonymous.
+So the decision can be attributed to the player who took the shot, but the
+teammate they should have found stays anonymous.
 
 The camera only shows part of the pitch. The area ahead of the shooter was in
-frame a median of 69.6% of the time, so about 30% of the space she might have
-played into is simply absent. Counting her options means counting the options a
-broadcast director chose to frame. I tested whether that censoring bends the
+frame a median of 69.6% of the time, so about 30% of the space they might have
+played into is simply absent. Counting the options available means counting the
+options a broadcast director chose to frame. I tested whether that censoring bends the
 verdict and it does not, which was not what I expected when I wrote the test.
 
 Pass completion is modelled, not measured. The three versions here are stated
