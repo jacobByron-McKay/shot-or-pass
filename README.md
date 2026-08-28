@@ -54,12 +54,13 @@ three-term model fitted on one tournament.
 
 ## Running it
 
-Needs R and `jsonlite`. Nothing else.
+Needs R and `jsonlite`. The last script also needs `specr`.
 
 ```r
 source("analysis/01-build-shots.R")   # fetches ~500 MB on a cold start
 source("analysis/02-multiverse.R")
 source("analysis/03-findings.R")
+source("analysis/04-visibility-curve.R")
 ```
 
 Tests:
@@ -78,7 +79,7 @@ Rscript tests/testthat.R
 | `R/value.R` | The shot model, three views of pass completion, three ways to decide what counts as an option |
 | `R/multiverse.R` | Runs every combination of choices and reports which ones matter |
 | `R/report.R` | Checks that every figure in the written findings is one the analysis produced |
-| `analysis/` | The three scripts, in order |
+| `analysis/` | The four scripts, in order |
 | `reports/findings.md` | Generated, not hand-written |
 
 ## The gate on the write-up
@@ -91,6 +92,40 @@ rather than waved through, so that adding one is a deliberate act.
 It sounds fussy. It exists because a wrong figure in a published summary is
 much more expensive than a missing one, and checking by eye works right up until
 the day it does not.
+
+## The camera hypothesis, and how it died
+
+The freeze frames only cover what was on screen. The area ahead of a shooter was
+in frame a median of 69.6% of the time, so roughly 30% of the space she might
+have played into is missing from the record entirely.
+
+That should bias the verdict. Less of the pitch visible means fewer options
+recorded, means the best alternative is understated, means the shot looks more
+justified than it was. Forward visibility does significantly predict how many
+options get recorded, at p = 0.0034, so the censoring is real.
+
+It does not reach the verdict. One regression put it at p = 0.218, which on its
+own is not worth much, so this runs the question across 576 specifications with
+`specr`: two outcomes, every subset of the geometry controls, and subsets by
+shot distance, open play against set piece, and half.
+
+![Specification curve for the visibility hypothesis](reports/visibility-specification-curve.png)
+
+The median coefficient is 0.009. Estimates run from -1.7 to 1.75, near enough
+symmetric about zero. Only 10.1% of specifications are significant at 0.05,
+barely above what chance would give you, and 46.9% point the way the hypothesis
+predicted, which is a coin flip. Just 3.0% are both significant and in the
+predicted direction.
+
+The hypothesis is not merely unsupported. It is unsupported robustly, which is a
+stronger and more useful statement than a single p value ever is.
+
+Two multiverses, doing different jobs. `specr` handles the model specification
+side, which is what it was built for. `R/multiverse.R` handles the choices made
+while constructing the numbers, which sit upstream of any model and which specr
+does not cover. Harder (2020) makes the case for treating those as part of the
+multiverse too.
+
 
 ## Where the method comes from
 

@@ -1,0 +1,577 @@
+"x","y","controls","subsets","estimate","std.error","p.value","fit_nobs"
+"forward_visible","edge","no covariates","close & open play & first half",-0.0488625571678654,0.294656802364751,0.869219556359342,38
+"forward_visible","edge","no covariates","mid & open play & first half",0.297161672014176,0.149296571601916,0.0509588429765759,64
+"forward_visible","edge","no covariates","long & open play & first half",0.031052556912857,0.0487134847277147,0.525301331458964,101
+"forward_visible","edge","no covariates","open play & first half",0.136729943081935,0.0785027973566351,0.0830871477566668,203
+"forward_visible","edge","no covariates","close & set piece & first half",-0.097566081591518,0.256236812636188,0.703919743771052,151
+"forward_visible","edge","no covariates","mid & set piece & first half",-0.0170211787864518,0.164398292078378,0.917713161431793,120
+"forward_visible","edge","no covariates","long & set piece & first half",-0.0594219740374283,0.0516743746788695,0.251759366631848,175
+"forward_visible","edge","no covariates","set piece & first half",0.00655516836802038,0.0921483305076954,0.943320642853686,446
+"forward_visible","edge","no covariates","close & first half",-0.0915770184040849,0.216120176472097,0.672248317826164,189
+"forward_visible","edge","no covariates","mid & first half",0.136097636249228,0.121041161667329,0.262327803447451,184
+"forward_visible","edge","no covariates","long & first half",-0.0322688010332197,0.0386422835147039,0.404408889196631,276
+"forward_visible","edge","no covariates","first half",0.0456885731143397,0.0688956837106452,0.507466961579779,649
+"forward_visible","edge","no covariates","close & open play & second half",0.271559630353774,0.316743378901884,0.394308410668269,69
+"forward_visible","edge","no covariates","mid & open play & second half",0.233591982859084,0.204733955452236,0.258075449901731,67
+"forward_visible","edge","no covariates","long & open play & second half",0.0299050264682561,0.033849900174608,0.378313403263309,162
+"forward_visible","edge","no covariates","open play & second half",0.0840455282770255,0.0721737695170679,0.245163755059327,298
+"forward_visible","edge","no covariates","close & set piece & second half",-0.0232695137463036,0.180089448581906,0.89732262287039,199
+"forward_visible","edge","no covariates","mid & set piece & second half",0.423124824736372,0.135393478121122,0.00213412433999645,152
+"forward_visible","edge","no covariates","long & set piece & second half",-0.094634723178916,0.0498389831816154,0.0586757009545522,267
+"forward_visible","edge","no covariates","set piece & second half",0.0322804451486159,0.0666732975804382,0.628445454455399,618
+"forward_visible","edge","no covariates","close & second half",0.00880882408156847,0.157428463903329,0.955420094423004,268
+"forward_visible","edge","no covariates","mid & second half",0.389106855265111,0.111226930547622,0.000567922750981359,219
+"forward_visible","edge","no covariates","long & second half",-0.0497372215667068,0.0341663998964018,0.146200726036996,429
+"forward_visible","edge","no covariates","second half",0.049916949654881,0.0512846285895909,0.330646039522625,916
+"forward_visible","edge","no covariates","close & open play",0.142085443199304,0.22374841356546,0.526794640752769,107
+"forward_visible","edge","no covariates","mid & open play",0.262805482484008,0.126504145005612,0.0397439858673613,131
+"forward_visible","edge","no covariates","long & open play",0.0304225065019769,0.0276654215256041,0.272494344328849,263
+"forward_visible","edge","no covariates","open play",0.103380400496544,0.0535592068410323,0.0541474619004375,501
+"forward_visible","edge","no covariates","close & set piece",-0.0444301782886559,0.148593908772433,0.765115445118473,350
+"forward_visible","edge","no covariates","mid & set piece",0.236331475974184,0.105100795888547,0.025343442708001,272
+"forward_visible","edge","no covariates","long & set piece",-0.0806600042780124,0.0364903878770106,0.0275881001305059,442
+"forward_visible","edge","no covariates","set piece",0.0218279562161279,0.05435164262285,0.68805467274674,1064
+"forward_visible","edge","no covariates","close",-0.0227606804010579,0.127716611533449,0.858635510072573,457
+"forward_visible","edge","no covariates","mid",0.273427038213627,0.0819577592648318,0.000928549474927636,403
+"forward_visible","edge","no covariates","long",-0.0428708026961519,0.0257749028965577,0.0967027044731267,705
+"forward_visible","edge","no covariates","all",0.0479019996064326,0.0412472420390989,0.245681696342269,1565
+"forward_visible","edge","distance","close & open play & first half",0.0661581325502817,0.237179783785422,0.781935029224686,38
+"forward_visible","edge","distance","mid & open play & first half",0.300246694878991,0.149713583164359,0.0493541303773101,64
+"forward_visible","edge","distance","long & open play & first half",0.0367140801042984,0.0499635261429797,0.464205316491129,101
+"forward_visible","edge","distance","open play & first half",0.0376055668563513,0.0706616984756598,0.595183963290635,203
+"forward_visible","edge","distance","close & set piece & first half",-0.0154448544439913,0.227262832448372,0.945908950360211,151
+"forward_visible","edge","distance","mid & set piece & first half",-0.0219201792798588,0.165643396807727,0.894947783111958,120
+"forward_visible","edge","distance","long & set piece & first half",-0.0440623965612672,0.0506019470812595,0.385096261925765,175
+"forward_visible","edge","distance","set piece & first half",-0.0459886707336911,0.0888878090834708,0.605149968876944,446
+"forward_visible","edge","distance","close & first half",-0.00532183182177326,0.192288805835324,0.977950043318261,189
+"forward_visible","edge","distance","mid & first half",0.132247731309125,0.121875738848225,0.279319182000794,184
+"forward_visible","edge","distance","long & first half",-0.0186473648672725,0.0385057356346393,0.628578995296803,276
+"forward_visible","edge","distance","first half",-0.0159138059899189,0.0661720544903852,0.810025675692752,649
+"forward_visible","edge","distance","close & open play & second half",0.503665775855957,0.270071246050242,0.0666369606633117,69
+"forward_visible","edge","distance","mid & open play & second half",0.263761798369134,0.198619892340253,0.188903911339574,67
+"forward_visible","edge","distance","long & open play & second half",0.0387680114642925,0.0355807953226141,0.2775481743059,162
+"forward_visible","edge","distance","open play & second half",-0.00611911817831028,0.0681780998239806,0.928545228137533,298
+"forward_visible","edge","distance","close & set piece & second half",0.13024829740222,0.165916106828739,0.433386740752346,199
+"forward_visible","edge","distance","mid & set piece & second half",0.428138933531741,0.135002577231311,0.00184260838754621,152
+"forward_visible","edge","distance","long & set piece & second half",-0.0897162845083014,0.0501149682769311,0.0745661162568809,267
+"forward_visible","edge","distance","set piece & second half",0.0123277522535554,0.065402842318376,0.850555087056212,618
+"forward_visible","edge","distance","close & second half",0.155844566902268,0.145874654062986,0.286336800935708,268
+"forward_visible","edge","distance","mid & second half",0.399917791575801,0.110152210205827,0.000353122562258141,219
+"forward_visible","edge","distance","long & second half",-0.0435127641335309,0.0347589053339461,0.211313233495462,429
+"forward_visible","edge","distance","second half",0.0148689881199425,0.0501113305361645,0.766748472323266,916
+"forward_visible","edge","distance","close & open play",0.315321954267046,0.188013007459177,0.0965206222555257,107
+"forward_visible","edge","distance","mid & open play",0.274616262554846,0.124803473214783,0.029573433596339,131
+"forward_visible","edge","distance","long & open play",0.0382470449156237,0.0287593792627041,0.18471731689628,263
+"forward_visible","edge","distance","open play",0.00992405997738619,0.0498124598818972,0.842165348850209,501
+"forward_visible","edge","distance","close & set piece",0.0858310219862219,0.134040059459703,0.522375100408035,350
+"forward_visible","edge","distance","mid & set piece",0.240908285474794,0.105337880006963,0.0229724247665251,272
+"forward_visible","edge","distance","long & set piece",-0.071478545121729,0.0364645804813246,0.0506023538465795,442
+"forward_visible","edge","distance","set piece",-0.00955097217221461,0.0529128611197002,0.856791546834082,1064
+"forward_visible","edge","distance","close",0.102943408040634,0.115934465561591,0.375040607844072,457
+"forward_visible","edge","distance","mid",0.281494323589032,0.0820120792623092,0.000660791612839943,403
+"forward_visible","edge","distance","long",-0.0329978166120653,0.0260467837751399,0.205622914476924,705
+"forward_visible","edge","distance","all",0.0031369681485203,0.0400119662954725,0.937519319097921,1565
+"forward_visible","edge","angle","close & open play & first half",0.0772720209937245,0.250416865647371,0.75947518536223,38
+"forward_visible","edge","angle","mid & open play & first half",0.306810485391859,0.152513438439384,0.0486752506136857,64
+"forward_visible","edge","angle","long & open play & first half",0.0348809903271738,0.0498039518636668,0.485358234382972,101
+"forward_visible","edge","angle","open play & first half",0.101618084226939,0.0641456966849357,0.114733567759837,203
+"forward_visible","edge","angle","close & set piece & first half",-0.0198129473682749,0.213957609296161,0.926344819877371,151
+"forward_visible","edge","angle","mid & set piece & first half",0.0160288317757366,0.163799722798396,0.922213859933734,120
+"forward_visible","edge","angle","long & set piece & first half",-0.0380883217191113,0.0503159620850653,0.45009581788224,175
+"forward_visible","edge","angle","set piece & first half",-0.0737110422729946,0.0800065903138926,0.357388939049754,446
+"forward_visible","edge","angle","close & first half",-0.00484022608458329,0.182543979265712,0.978874679392081,189
+"forward_visible","edge","angle","mid & first half",0.137427702800788,0.120501659387599,0.255600205850662,184
+"forward_visible","edge","angle","long & first half",-0.0161192553115213,0.0384757412486415,0.675585074631761,276
+"forward_visible","edge","angle","first half",-0.0156411926387934,0.060005733784744,0.794436522232146,649
+"forward_visible","edge","angle","close & open play & second half",0.377339763333969,0.274730102815615,0.174247006770285,69
+"forward_visible","edge","angle","mid & open play & second half",0.237196632895282,0.207295213139624,0.256783363070579,67
+"forward_visible","edge","angle","long & open play & second half",0.022405290655025,0.0343573571989834,0.515262163166377,162
+"forward_visible","edge","angle","open play & second half",0.0480562414997513,0.0604776352044267,0.42747815314475,298
+"forward_visible","edge","angle","close & set piece & second half",0.144090069485014,0.164718537253266,0.3827722402944,199
+"forward_visible","edge","angle","mid & set piece & second half",0.412222079361364,0.135338146233275,0.00274456658795041,152
+"forward_visible","edge","angle","long & set piece & second half",-0.0896160672319172,0.0503242026929144,0.0760990947188696,267
+"forward_visible","edge","angle","set piece & second half",0.0281433155185896,0.0627968704163591,0.654192463195908,618
+"forward_visible","edge","angle","close & second half",0.160819653791419,0.143853954474659,0.264606356210277,268
+"forward_visible","edge","angle","mid & second half",0.385786759460412,0.111078527155451,0.000621440903192198,219
+"forward_visible","edge","angle","long & second half",-0.0486199740920999,0.0345916827607615,0.160589806297599,429
+"forward_visible","edge","angle","second half",0.0398295872172806,0.0476426016451603,0.403369243367565,916
+"forward_visible","edge","angle","close & open play",0.258898419495126,0.192635412420108,0.181879027535419,107
+"forward_visible","edge","angle","mid & open play",0.26328456158843,0.127132211318941,0.0403727630055982,131
+"forward_visible","edge","angle","long & open play",0.0267103497101518,0.028159275127033,0.343732698902854,263
+"forward_visible","edge","angle","open play",0.0677003672560558,0.0445195416385921,0.128972601498423,501
+"forward_visible","edge","angle","close & set piece",0.0921387143316233,0.129767584464527,0.478163187115187,350
+"forward_visible","edge","angle","mid & set piece",0.239065717318958,0.104231509821501,0.0225845700945945,272
+"forward_visible","edge","angle","long & set piece",-0.0694903674519019,0.0365985777241587,0.0582570333016417,442
+"forward_visible","edge","angle","set piece",-0.00722003769884833,0.0494635153629483,0.883975217981906,1064
+"forward_visible","edge","angle","close",0.104676150950951,0.112459561315454,0.352457261174685,457
+"forward_visible","edge","angle","mid",0.271834660498457,0.0816247570105604,0.00094810389219213,403
+"forward_visible","edge","angle","long",-0.0363167397168938,0.026020434241412,0.163245903990986,705
+"forward_visible","edge","angle","all",0.0202705703730446,0.0373079326499872,0.586979192626555,1565
+"forward_visible","edge","defenders_in_cone","close & open play & first half",-0.139369960583974,0.28907874965532,0.632723750901331,38
+"forward_visible","edge","defenders_in_cone","mid & open play & first half",0.178384477026881,0.122073071095948,0.149067515609342,64
+"forward_visible","edge","defenders_in_cone","long & open play & first half",0.0279998872026712,0.040450869625196,0.490451767592665,101
+"forward_visible","edge","defenders_in_cone","open play & first half",0.0868147816066063,0.0704004890425775,0.218964996087738,203
+"forward_visible","edge","defenders_in_cone","close & set piece & first half",-0.0533142178112228,0.224296626731947,0.812446295149822,151
+"forward_visible","edge","defenders_in_cone","mid & set piece & first half",0.0559852807204041,0.129079507596015,0.665285305916725,120
+"forward_visible","edge","defenders_in_cone","long & set piece & first half",0.0046135850726898,0.0429993948783373,0.914680645326474,175
+"forward_visible","edge","defenders_in_cone","set piece & first half",0.0827313752713214,0.0804502197154862,0.304344075481703,446
+"forward_visible","edge","defenders_in_cone","close & first half",-0.0830654234330359,0.190340857988667,0.663050109443318,189
+"forward_visible","edge","defenders_in_cone","mid & first half",0.111473299409481,0.0933326446612154,0.233897820246808,184
+"forward_visible","edge","defenders_in_cone","long & first half",0.0121758547375496,0.0313218559187505,0.697776300546046,276
+"forward_visible","edge","defenders_in_cone","first half",0.0766535682025588,0.0601494085758854,0.202984857831345,649
+"forward_visible","edge","defenders_in_cone","close & open play & second half",-0.0498320204578999,0.312653324592538,0.873852885681996,69
+"forward_visible","edge","defenders_in_cone","mid & open play & second half",0.162935374511747,0.195295528818637,0.407214385328497,67
+"forward_visible","edge","defenders_in_cone","long & open play & second half",0.0104926262757002,0.0289716213181469,0.717706564393818,162
+"forward_visible","edge","defenders_in_cone","open play & second half",0.0188912055577718,0.0671105128833867,0.778528894855115,298
+"forward_visible","edge","defenders_in_cone","close & set piece & second half",-0.194477459361083,0.148722629937589,0.19252307907518,199
+"forward_visible","edge","defenders_in_cone","mid & set piece & second half",-0.0881353736009417,0.0989684122454089,0.374611454570016,152
+"forward_visible","edge","defenders_in_cone","long & set piece & second half",-0.0602751791814489,0.0479150642200444,0.209518138073857,267
+"forward_visible","edge","defenders_in_cone","set piece & second half",0.00522500588409741,0.0590158554282826,0.929479789550513,618
+"forward_visible","edge","defenders_in_cone","close & second half",-0.188609584492564,0.131581868298924,0.152922028592464,268
+"forward_visible","edge","defenders_in_cone","mid & second half",-0.0179453360373065,0.0888846806673489,0.84018914884289,219
+"forward_visible","edge","defenders_in_cone","long & second half",-0.0292711814378842,0.0320013558751664,0.360874104919216,429
+"forward_visible","edge","defenders_in_cone","second half",0.0100693413692183,0.0456299341331785,0.825395592667433,916
+"forward_visible","edge","defenders_in_cone","close & open play",-0.0734003787341341,0.218064805492502,0.737097521136933,107
+"forward_visible","edge","defenders_in_cone","mid & open play",0.169719640948329,0.114827286247869,0.141852813432411,131
+"forward_visible","edge","defenders_in_cone","long & open play",0.0163128504045684,0.0233608329473978,0.485614191435443,263
+"forward_visible","edge","defenders_in_cone","open play",0.0441280250602718,0.0491819245413486,0.370024028343629,501
+"forward_visible","edge","defenders_in_cone","close & set piece",-0.135969442246617,0.125875511841736,0.280807871062672,350
+"forward_visible","edge","defenders_in_cone","mid & set piece",0.0118201723002347,0.0777563032388025,0.879288569200259,272
+"forward_visible","edge","defenders_in_cone","long & set piece",-0.0372295313538832,0.0339603373531596,0.273563802961631,442
+"forward_visible","edge","defenders_in_cone","set piece",0.0289098425879949,0.047843709009541,0.54580271506387,1064
+"forward_visible","edge","defenders_in_cone","close",-0.139783323622359,0.109141986462501,0.200936261233533,457
+"forward_visible","edge","defenders_in_cone","mid",0.0569554719288558,0.0635852600230966,0.370933624279686,403
+"forward_visible","edge","defenders_in_cone","long",-0.0153311181036687,0.0232912951398903,0.510603700068369,705
+"forward_visible","edge","defenders_in_cone","all",0.0320530710875201,0.036419420761611,0.378935483914155,1565
+"forward_visible","edge","distance + angle","close & open play & first half",0.0773784281963946,0.23977134927777,0.748885410942057,38
+"forward_visible","edge","distance + angle","mid & open play & first half",0.297995623893373,0.153544994469054,0.0569884215037378,64
+"forward_visible","edge","distance + angle","long & open play & first half",0.0369759923192456,0.0503437390736747,0.464433852338951,101
+"forward_visible","edge","distance + angle","open play & first half",0.0949426208169672,0.0660328873061176,0.152059153581823,203
+"forward_visible","edge","distance + angle","close & set piece & first half",-0.0249595798411267,0.214469663033517,0.907511701661221,151
+"forward_visible","edge","distance + angle","mid & set piece & first half",0.0368675566415864,0.166523929873158,0.825174184895849,120
+"forward_visible","edge","distance + angle","long & set piece & first half",-0.0372007487868574,0.0503394530133234,0.460921448909142,175
+"forward_visible","edge","distance + angle","set piece & first half",-0.0586198138352799,0.0789484563797423,0.458174373473713,446
+"forward_visible","edge","distance + angle","close & first half",-0.00647054683460133,0.18308927935285,0.971845983262862,189
+"forward_visible","edge","distance + angle","mid & first half",0.145653800691056,0.121508421306668,0.232215080841219,184
+"forward_visible","edge","distance + angle","long & first half",-0.0144182141891772,0.0385155186684302,0.708436961720161,276
+"forward_visible","edge","distance + angle","first half",0.004485753520926,0.05976567005132,0.94019367580483,649
+"forward_visible","edge","distance + angle","close & open play & second half",0.490511237144743,0.275619902765154,0.0798052764163777,69
+"forward_visible","edge","distance + angle","mid & open play & second half",0.299246423569012,0.199547115203246,0.138705684282259,67
+"forward_visible","edge","distance + angle","long & open play & second half",0.0418328008809833,0.0351002919628266,0.235123688329933,162
+"forward_visible","edge","distance + angle","open play & second half",0.0744560977288544,0.0620080284171767,0.230814985906014,298
+"forward_visible","edge","distance + angle","close & set piece & second half",0.152957788701037,0.164141746496065,0.352559103674555,199
+"forward_visible","edge","distance + angle","mid & set piece & second half",0.411915358847732,0.133556875542504,0.00243588914975168,152
+"forward_visible","edge","distance + angle","long & set piece & second half",-0.0892024917440379,0.0503908308264464,0.0778502063367101,267
+"forward_visible","edge","distance + angle","set piece & second half",0.0428741019097927,0.0627054525002097,0.494398558369644,618
+"forward_visible","edge","distance + angle","close & second half",0.170090852277513,0.143793337432011,0.237919250021162,268
+"forward_visible","edge","distance + angle","mid & second half",0.398302723377887,0.108680040099576,0.000311722790054231,219
+"forward_visible","edge","distance + angle","long & second half",-0.0441904959236096,0.0348023581661107,0.204866426925678,429
+"forward_visible","edge","distance + angle","second half",0.0601804845127957,0.0478354266426476,0.208687162351742,916
+"forward_visible","edge","distance + angle","close & open play",0.308752025168644,0.188461114465369,0.10441471162397,107
+"forward_visible","edge","distance + angle","mid & open play",0.270651148284275,0.124793648590269,0.031961808962638,131
+"forward_visible","edge","distance + angle","long & open play",0.0382750707236676,0.0286316904008103,0.182458372444335,263
+"forward_visible","edge","distance + angle","open play",0.0811127741523503,0.0457550674575803,0.0768808662665991,501
+"forward_visible","edge","distance + angle","close & set piece",0.0962609044997213,0.1299419149829,0.459317458604765,350
+"forward_visible","edge","distance + angle","mid & set piece",0.254804239109046,0.103745952874369,0.0146826643413833,272
+"forward_visible","edge","distance + angle","long & set piece",-0.0687956806600976,0.0365900416966671,0.0607476398015506,442
+"forward_visible","edge","distance + angle","set piece",0.00863796774507769,0.049079697644479,0.860328504096032,1064
+"forward_visible","edge","distance + angle","close",0.109075911501214,0.112611136305603,0.333258264729048,457
+"forward_visible","edge","distance + angle","mid",0.287926684295505,0.0811121921235729,0.000431583978897575,403
+"forward_visible","edge","distance + angle","long",-0.0327489599955867,0.0260941735936506,0.209886249019925,705
+"forward_visible","edge","distance + angle","all",0.0412298276377556,0.0372909727822714,0.269059282411268,1565
+"forward_visible","edge","distance + defenders_in_cone","close & open play & first half",-0.0151101817619043,0.230941629710081,0.948215978735798,38
+"forward_visible","edge","distance + defenders_in_cone","mid & open play & first half",0.179825894804898,0.12315924413441,0.149476749807527,64
+"forward_visible","edge","distance + defenders_in_cone","long & open play & first half",0.0348898430366154,0.0414144569052431,0.40160538935018,101
+"forward_visible","edge","distance + defenders_in_cone","open play & first half",0.0103119710159289,0.0642069927996982,0.872567348286713,203
+"forward_visible","edge","distance + defenders_in_cone","close & set piece & first half",0.0264946111550508,0.191289441875924,0.890030597903651,151
+"forward_visible","edge","distance + defenders_in_cone","mid & set piece & first half",0.0588808993737793,0.130153752543987,0.651829385172841,120
+"forward_visible","edge","distance + defenders_in_cone","long & set piece & first half",0.0169635176205041,0.0418856082858921,0.685986399308198,175
+"forward_visible","edge","distance + defenders_in_cone","set piece & first half",0.0401600530776142,0.0789659220201374,0.611304263207961,446
+"forward_visible","edge","distance + defenders_in_cone","close & first half",0.00269191271261682,0.162641737095694,0.986812507858254,189
+"forward_visible","edge","distance + defenders_in_cone","mid & first half",0.114193972736593,0.0939692303027459,0.225870980160103,184
+"forward_visible","edge","distance + defenders_in_cone","long & first half",0.0256684286094577,0.0309786778563519,0.408066465593634,276
+"forward_visible","edge","distance + defenders_in_cone","first half",0.0271245678693695,0.0585239602524073,0.643178137780812,649
+"forward_visible","edge","distance + defenders_in_cone","close & open play & second half",0.178126026664192,0.255570256765701,0.488303863642643,69
+"forward_visible","edge","distance + defenders_in_cone","mid & open play & second half",0.19328869511445,0.188638613584415,0.309446396208909,67
+"forward_visible","edge","distance + defenders_in_cone","long & open play & second half",0.0163173738243931,0.0305053623790582,0.593469731189489,162
+"forward_visible","edge","distance + defenders_in_cone","open play & second half",-0.0502135970060208,0.0639441353362512,0.432925929678142,298
+"forward_visible","edge","distance + defenders_in_cone","close & set piece & second half",-0.0497037877742971,0.135308618942674,0.713766421065605,199
+"forward_visible","edge","distance + defenders_in_cone","mid & set piece & second half",-0.0838026730405711,0.0993604786725269,0.40035435613812,152
+"forward_visible","edge","distance + defenders_in_cone","long & set piece & second half",-0.0547760350737675,0.0481612892415763,0.256428924269714,267
+"forward_visible","edge","distance + defenders_in_cone","set piece & second half",-0.00665284058637242,0.0584650455331072,0.909440065681501,618
+"forward_visible","edge","distance + defenders_in_cone","close & second half",-0.0442333896729295,0.118327491455744,0.70883697304692,268
+"forward_visible","edge","distance + defenders_in_cone","mid & second half",-0.00548145966471664,0.0884030372458673,0.950616189271361,219
+"forward_visible","edge","distance + defenders_in_cone","long & second half",-0.0224766134180299,0.0325452745517116,0.490177590983531,429
+"forward_visible","edge","distance + defenders_in_cone","second half",-0.0142702539076293,0.0449386930317349,0.750899467613401,916
+"forward_visible","edge","distance + defenders_in_cone","close & open play",0.102258321176258,0.177896741942128,0.566667565372442,107
+"forward_visible","edge","distance + defenders_in_cone","mid & open play",0.181954937980892,0.113529469858225,0.111482744582922,131
+"forward_visible","edge","distance + defenders_in_cone","long & open play",0.0229343864870173,0.0242884560156527,0.345921665485761,263
+"forward_visible","edge","distance + defenders_in_cone","open play",-0.0275916205820266,0.0462281143673163,0.550873965668445,501
+"forward_visible","edge","distance + defenders_in_cone","close & set piece",-0.0105097866407681,0.110625170460938,0.924366983179638,350
+"forward_visible","edge","distance + defenders_in_cone","mid & set piece",0.0155138733939823,0.0779316039488795,0.842358640938432,272
+"forward_visible","edge","distance + defenders_in_cone","long & set piece",-0.0282616972650681,0.0338962441057408,0.404864634598381,442
+"forward_visible","edge","distance + defenders_in_cone","set piece",0.00677975653147214,0.0471555828696308,0.885706098612163,1064
+"forward_visible","edge","distance + defenders_in_cone","close",-0.0153651793186977,0.0955313592244205,0.872291817670121,457
+"forward_visible","edge","distance + defenders_in_cone","mid",0.064420835737997,0.0635656841019083,0.311457973154093,403
+"forward_visible","edge","distance + defenders_in_cone","long",-0.00503194667844097,0.0235069781843126,0.830561092551491,705
+"forward_visible","edge","distance + defenders_in_cone","all",-0.00123459448686965,0.0356685596342583,0.972392791070427,1565
+"forward_visible","edge","angle + defenders_in_cone","close & open play & first half",-0.00591704620859601,0.244951289386869,0.980869384885625,38
+"forward_visible","edge","angle + defenders_in_cone","mid & open play & first half",0.198594953497396,0.123271017508509,0.112419026565019,64
+"forward_visible","edge","angle + defenders_in_cone","long & open play & first half",0.0241324632082937,0.0413712704317094,0.561035388452153,101
+"forward_visible","edge","angle + defenders_in_cone","open play & first half",0.060673766613892,0.0564693275781372,0.28391973865486,203
+"forward_visible","edge","angle + defenders_in_cone","close & set piece & first half",0.0286188215735632,0.169900147022174,0.866464791534335,151
+"forward_visible","edge","angle + defenders_in_cone","mid & set piece & first half",0.0479486081984228,0.129970255468911,0.712859958118694,120
+"forward_visible","edge","angle + defenders_in_cone","long & set piece & first half",0.0115075500537992,0.0427384664416617,0.788057993295507,175
+"forward_visible","edge","angle + defenders_in_cone","set piece & first half",0.00256801098464244,0.0691554052687005,0.970394994933181,446
+"forward_visible","edge","angle + defenders_in_cone","close & first half",0.00748681976799113,0.146986822219726,0.959432019696634,189
+"forward_visible","edge","angle + defenders_in_cone","mid & first half",0.110158871611452,0.093331098248823,0.239437579992573,184
+"forward_visible","edge","angle + defenders_in_cone","long & first half",0.0176907645464991,0.0314895139491969,0.57471587141684,276
+"forward_visible","edge","angle + defenders_in_cone","first half",0.017343520876901,0.0512280590979526,0.735055086897701,649
+"forward_visible","edge","angle + defenders_in_cone","close & open play & second half",0.0428459814967973,0.260089853583005,0.869663562785828,69
+"forward_visible","edge","angle + defenders_in_cone","mid & open play & second half",0.150985378380638,0.198132222109631,0.448877602113326,67
+"forward_visible","edge","angle + defenders_in_cone","long & open play & second half",-0.00423926627963864,0.0289869716870309,0.883912594385802,162
+"forward_visible","edge","angle + defenders_in_cone","open play & second half",-0.00429834559057533,0.056170437429068,0.939054848906474,298
+"forward_visible","edge","angle + defenders_in_cone","close & set piece & second half",-0.0335123370173969,0.132317337829871,0.800324495893777,199
+"forward_visible","edge","angle + defenders_in_cone","mid & set piece & second half",-0.0883297916042927,0.0992883774707401,0.375109046048664,152
+"forward_visible","edge","angle + defenders_in_cone","long & set piece & second half",-0.0610633098969529,0.0482953740624347,0.207215949708977,267
+"forward_visible","edge","angle + defenders_in_cone","set piece & second half",0.00312199300830178,0.0556195086239826,0.955255502992286,618
+"forward_visible","edge","angle + defenders_in_cone","close & second half",-0.0384853155409231,0.115791879463355,0.73987644787285,268
+"forward_visible","edge","angle + defenders_in_cone","mid & second half",-0.0186298784046032,0.0891237637891971,0.834619774402639,219
+"forward_visible","edge","angle + defenders_in_cone","long & second half",-0.0338613686344719,0.0323096033849151,0.29522133991605,429
+"forward_visible","edge","angle + defenders_in_cone","second half",0.00312194237111969,0.0422296997642342,0.941084167374237,916
+"forward_visible","edge","angle + defenders_in_cone","close & open play",0.0444644892794297,0.182969569429451,0.808476485851999,107
+"forward_visible","edge","angle + defenders_in_cone","mid & open play",0.172434316350852,0.114846443672614,0.135725661966899,131
+"forward_visible","edge","angle + defenders_in_cone","long & open play",0.0054018586421246,0.0235823467168991,0.819000210999886,263
+"forward_visible","edge","angle + defenders_in_cone","open play",0.019618350996777,0.040645293544663,0.629541068106661,501
+"forward_visible","edge","angle + defenders_in_cone","close & set piece",-0.000512820599007263,0.103452621408782,0.996047713277423,350
+"forward_visible","edge","angle + defenders_in_cone","mid & set piece",0.00969060393337725,0.0779916397386274,0.9012090276113,272
+"forward_visible","edge","angle + defenders_in_cone","long & set piece",-0.0343885723247645,0.0341467625456346,0.31445164154106,442
+"forward_visible","edge","angle + defenders_in_cone","set piece",0.00222148666229167,0.043365489897716,0.959154238783405,1064
+"forward_visible","edge","angle + defenders_in_cone","close",-0.012308682998803,0.0902848155070028,0.891619624058094,457
+"forward_visible","edge","angle + defenders_in_cone","mid",0.0549626740374982,0.0636318616691403,0.388238530283005,403
+"forward_visible","edge","angle + defenders_in_cone","long",-0.0160033926418368,0.0235165703608574,0.496402754390699,705
+"forward_visible","edge","angle + defenders_in_cone","all",0.00747620323246648,0.0325956931132228,0.81861785733516,1565
+"forward_visible","edge","distance + angle + defenders_in_cone","close & open play & first half",-0.00405878770410284,0.233663613915501,0.986245867600257,38
+"forward_visible","edge","distance + angle + defenders_in_cone","mid & open play & first half",0.200979186976823,0.124240893081181,0.111070957235923,64
+"forward_visible","edge","distance + angle + defenders_in_cone","long & open play & first half",0.0307981455137833,0.0413511301898015,0.458214653528357,101
+"forward_visible","edge","distance + angle + defenders_in_cone","open play & first half",0.0698940079195163,0.0579198315681842,0.228973177229437,203
+"forward_visible","edge","distance + angle + defenders_in_cone","close & set piece & first half",0.018558205561733,0.168554139147621,0.912479408465192,151
+"forward_visible","edge","distance + angle + defenders_in_cone","mid & set piece & first half",0.0450174028854375,0.132383814821688,0.734437567014551,120
+"forward_visible","edge","distance + angle + defenders_in_cone","long & set piece & first half",0.0164816832479722,0.041994737372747,0.695202457201299,175
+"forward_visible","edge","distance + angle + defenders_in_cone","set piece & first half",0.0308417933223936,0.0662042938650819,0.641547213174958,446
+"forward_visible","edge","distance + angle + defenders_in_cone","close & first half",0.00187042121381587,0.146852576149576,0.989851636036061,189
+"forward_visible","edge","distance + angle + defenders_in_cone","mid & first half",0.107314573792291,0.0942186560009403,0.256227251828203,184
+"forward_visible","edge","distance + angle + defenders_in_cone","long & first half",0.0239452571257106,0.0309803562224852,0.440244857161,276
+"forward_visible","edge","distance + angle + defenders_in_cone","first half",0.0520454466149627,0.049819355246934,0.296561348748966,649
+"forward_visible","edge","distance + angle + defenders_in_cone","close & open play & second half",0.153333938952917,0.260805291073748,0.558651572172978,69
+"forward_visible","edge","distance + angle + defenders_in_cone","mid & open play & second half",0.213968129170572,0.192449664363639,0.270511086533339,67
+"forward_visible","edge","distance + angle + defenders_in_cone","long & open play & second half",0.0190243433269139,0.0290217997439076,0.51309301143303,162
+"forward_visible","edge","distance + angle + defenders_in_cone","open play & second half",0.0303987068167763,0.0570209371492647,0.594358224742213,298
+"forward_visible","edge","distance + angle + defenders_in_cone","close & set piece & second half",-0.0264953878419282,0.132244997541561,0.841416126478443,199
+"forward_visible","edge","distance + angle + defenders_in_cone","mid & set piece & second half",-0.0823503238563557,0.099602594163006,0.409696722714541,152
+"forward_visible","edge","distance + angle + defenders_in_cone","long & set piece & second half",-0.0579845534316417,0.0481506391231119,0.229586588177416,267
+"forward_visible","edge","distance + angle + defenders_in_cone","set piece & second half",0.0260223000978058,0.054707128957724,0.634482080888563,618
+"forward_visible","edge","distance + angle + defenders_in_cone","close & second half",-0.0299046755392446,0.115659607291032,0.796178800090395,268
+"forward_visible","edge","distance + angle + defenders_in_cone","mid & second half",-0.000691150342702523,0.0886975418121944,0.993790033771921,219
+"forward_visible","edge","distance + angle + defenders_in_cone","long & second half",-0.0236340902182616,0.0323454271278972,0.465379443394406,429
+"forward_visible","edge","distance + angle + defenders_in_cone","second half",0.0331737929323243,0.0418877819083719,0.428585360870593,916
+"forward_visible","edge","distance + angle + defenders_in_cone","close & open play",0.0949448568917656,0.178140306686036,0.595208169393482,107
+"forward_visible","edge","distance + angle + defenders_in_cone","mid & open play",0.181949107342995,0.11397912274375,0.112918625902131,131
+"forward_visible","edge","distance + angle + defenders_in_cone","long & open play",0.0219130492602663,0.0235562029491099,0.353113625035844,263
+"forward_visible","edge","distance + angle + defenders_in_cone","open play",0.0441719700586223,0.0414124738526187,0.286655852033875,501
+"forward_visible","edge","distance + angle + defenders_in_cone","close & set piece",-0.00170587126828164,0.103701197486693,0.98688500299046,350
+"forward_visible","edge","distance + angle + defenders_in_cone","mid & set piece",0.0148504742890436,0.078448761618083,0.850000280492955,272
+"forward_visible","edge","distance + angle + defenders_in_cone","long & set piece",-0.0304390118521887,0.0338795520071898,0.369441568527006,442
+"forward_visible","edge","distance + angle + defenders_in_cone","set piece",0.0270754554336217,0.0421212015646185,0.520493842328549,1064
+"forward_visible","edge","distance + angle + defenders_in_cone","close",-0.0108623134948657,0.0904847298810824,0.904500191989293,457
+"forward_visible","edge","distance + angle + defenders_in_cone","mid",0.063973556844619,0.0638281198542068,0.316818035394149,403
+"forward_visible","edge","distance + angle + defenders_in_cone","long",-0.00683996400682161,0.0233954003338194,0.770095250982289,705
+"forward_visible","edge","distance + angle + defenders_in_cone","all",0.0394962234286677,0.0320459884340077,0.217953407560319,1565
+"forward_visible","shot_was_right","no covariates","close & open play & first half",0.563500585316317,1.03829229654849,0.590667966688039,38
+"forward_visible","shot_was_right","no covariates","mid & open play & first half",1.7357733505461,0.935913833586199,0.0684060372640458,64
+"forward_visible","shot_was_right","no covariates","long & open play & first half",0.033622363492335,0.426742075491255,0.937359893498535,101
+"forward_visible","shot_was_right","no covariates","open play & first half",0.996625826148568,0.45353459698743,0.0291298465241659,203
+"forward_visible","shot_was_right","no covariates","close & set piece & first half",-0.178104134447256,0.539246773749334,0.741649943574598,151
+"forward_visible","shot_was_right","no covariates","mid & set piece & first half",-0.838893386711154,0.633583234812624,0.188046842630011,120
+"forward_visible","shot_was_right","no covariates","long & set piece & first half",-0.529040498709684,0.233257701938,0.0245624984480808,175
+"forward_visible","shot_was_right","no covariates","set piece & first half",-0.222464947723793,0.282937374283359,0.432129211268003,446
+"forward_visible","shot_was_right","no covariates","close & first half",-0.0640949792551836,0.480684789960454,0.894067105905676,189
+"forward_visible","shot_was_right","no covariates","mid & first half",0.129259988926147,0.525366026970447,0.805930095947501,184
+"forward_visible","shot_was_right","no covariates","long & first half",-0.356877212816421,0.211144162734052,0.0921257657207183,276
+"forward_visible","shot_was_right","no covariates","first half",0.122508062329795,0.240606961485982,0.610811864325546,649
+"forward_visible","shot_was_right","no covariates","close & open play & second half",-0.758984516723517,0.889850619056042,0.396734406986384,69
+"forward_visible","shot_was_right","no covariates","mid & open play & second half",1.14566151492114,1.0069772132625,0.259412460820682,67
+"forward_visible","shot_was_right","no covariates","long & open play & second half",0.0674634592220208,0.306627451040934,0.826137855638019,162
+"forward_visible","shot_was_right","no covariates","open play & second half",0.29821549681796,0.346531046900879,0.390169400179497,298
+"forward_visible","shot_was_right","no covariates","close & set piece & second half",0.134621349178702,0.430109513565444,0.754616939816352,199
+"forward_visible","shot_was_right","no covariates","mid & set piece & second half",1.25902214146835,0.540614207839454,0.0212006465804037,152
+"forward_visible","shot_was_right","no covariates","long & set piece & second half",-0.371123094869206,0.227851828506199,0.104545366789139,267
+"forward_visible","shot_was_right","no covariates","set piece & second half",0.143006066212392,0.221036397466413,0.517886073750268,618
+"forward_visible","shot_was_right","no covariates","close & second half",-0.0123743860103852,0.38841168923409,0.974608432025891,268
+"forward_visible","shot_was_right","no covariates","mid & second half",1.25501854138594,0.469059314801817,0.00802827298018922,219
+"forward_visible","shot_was_right","no covariates","long & second half",-0.212723985113689,0.182787234144977,0.245163364538759,429
+"forward_visible","shot_was_right","no covariates","second half",0.189805864989982,0.186195050409268,0.308286342730953,916
+"forward_visible","shot_was_right","no covariates","close & open play",-0.206299878948325,0.672832750675233,0.759744461445593,107
+"forward_visible","shot_was_right","no covariates","mid & open play",1.43990954361945,0.684341560974404,0.0373125402245948,131
+"forward_visible","shot_was_right","no covariates","long & open play",0.0594194660554435,0.247577387633753,0.810515848369726,263
+"forward_visible","shot_was_right","no covariates","open play",0.55537762854146,0.275297849727839,0.0441917970499628,501
+"forward_visible","shot_was_right","no covariates","close & set piece",0.0343349694580735,0.335991409030458,0.918664704313535,350
+"forward_visible","shot_was_right","no covariates","mid & set piece",0.365834110877833,0.414456922079534,0.378192720702629,272
+"forward_visible","shot_was_right","no covariates","long & set piece",-0.422269847128428,0.166863297562219,0.0117332621849803,442
+"forward_visible","shot_was_right","no covariates","set piece",0.00219801365317429,0.174177722955221,0.989933834510149,1064
+"forward_visible","shot_was_right","no covariates","close",-0.0192984539975496,0.301760176211977,0.9490357753672,457
+"forward_visible","shot_was_right","no covariates","mid",0.74047360220423,0.35031414136215,0.0351542922064904,403
+"forward_visible","shot_was_right","no covariates","long",-0.257489966369382,0.139084389764285,0.0645424590933835,705
+"forward_visible","shot_was_right","no covariates","all",0.163440843707215,0.147236307255339,0.267144773999113,1565
+"forward_visible","shot_was_right","distance","close & open play & first half",0.666448134489786,1.0459547137938,0.52816201613085,38
+"forward_visible","shot_was_right","distance","mid & open play & first half",1.74909766364177,0.941323986805513,0.0679786108280715,64
+"forward_visible","shot_was_right","distance","long & open play & first half",-0.124240946184098,0.431510701540949,0.774015312348646,101
+"forward_visible","shot_was_right","distance","open play & first half",0.36487473857711,0.395419715251336,0.357247772291116,203
+"forward_visible","shot_was_right","distance","close & set piece & first half",-0.151151720662001,0.540449570849347,0.780115235795186,151
+"forward_visible","shot_was_right","distance","mid & set piece & first half",-0.854434013942689,0.638483844005414,0.183418565318044,120
+"forward_visible","shot_was_right","distance","long & set piece & first half",-0.576676948850244,0.231921899408307,0.0138541050018157,175
+"forward_visible","shot_was_right","distance","set piece & first half",-0.506765358030775,0.246671125583899,0.0405214659874813,446
+"forward_visible","shot_was_right","distance","close & first half",-0.0343491167334889,0.481672083399906,0.943225870146603,189
+"forward_visible","shot_was_right","distance","mid & first half",0.123264482153013,0.52913245897743,0.816058943343587,184
+"forward_visible","shot_was_right","distance","long & first half",-0.435545942140473,0.210055515138795,0.039065384280779,276
+"forward_visible","shot_was_right","distance","first half",-0.232497049171317,0.210159529351054,0.269013512709603,649
+"forward_visible","shot_was_right","distance","close & open play & second half",-0.603573249478647,0.900538736728964,0.505045985506292,69
+"forward_visible","shot_was_right","distance","mid & open play & second half",1.35785251262498,0.933171687168239,0.150530797919209,67
+"forward_visible","shot_was_right","distance","long & open play & second half",-0.0258995931735468,0.322068428478295,0.936007189472105,162
+"forward_visible","shot_was_right","distance","open play & second half",-0.268158736115914,0.30739511791066,0.383722311775577,298
+"forward_visible","shot_was_right","distance","close & set piece & second half",0.350577674285321,0.422484720113996,0.407661584383711,199
+"forward_visible","shot_was_right","distance","mid & set piece & second half",1.27002243229524,0.541542135508693,0.0203358831565632,152
+"forward_visible","shot_was_right","distance","long & set piece & second half",-0.412744590648191,0.228157830553763,0.0715836748973725,267
+"forward_visible","shot_was_right","distance","set piece & second half",0.0164888561041593,0.203605521828852,0.935480764062024,618
+"forward_visible","shot_was_right","distance","close & second half",0.155515689266561,0.386207917655935,0.687513081172916,268
+"forward_visible","shot_was_right","distance","mid & second half",1.30422373666376,0.463527469566515,0.00534956604323601,219
+"forward_visible","shot_was_right","distance","long & second half",-0.283682925972776,0.185220109371903,0.126363675009689,429
+"forward_visible","shot_was_right","distance","second half",-0.0392468930328202,0.169648183104406,0.817100300325576,916
+"forward_visible","shot_was_right","distance","close & open play",-0.0723110084333018,0.675090797795153,0.914905681884786,107
+"forward_visible","shot_was_right","distance","mid & open play",1.51891159645116,0.66842937769204,0.0247325912559475,131
+"forward_visible","shot_was_right","distance","long & open play",-0.063216550908275,0.256349912851057,0.805410393606327,263
+"forward_visible","shot_was_right","distance","open play",-0.0347235801551611,0.242608270555953,0.886248469286819,501
+"forward_visible","shot_was_right","distance","close & set piece",0.14971830302504,0.333180512773767,0.653451852121732,350
+"forward_visible","shot_was_right","distance","mid & set piece",0.375588467630712,0.415727526751416,0.367096158860667,272
+"forward_visible","shot_was_right","distance","long & set piece",-0.469309864366172,0.166445097987247,0.00502588403233946,442
+"forward_visible","shot_was_right","distance","set piece",-0.180648009401844,0.157016503128792,0.250195855037766,1064
+"forward_visible","shot_was_right","distance","close",0.0790194357013376,0.30067681416825,0.792819930719069,457
+"forward_visible","shot_was_right","distance","mid",0.780979582921116,0.350176376624055,0.0262852218570283,403
+"forward_visible","shot_was_right","distance","long",-0.336073003681791,0.139919172856639,0.0165686571138276,705
+"forward_visible","shot_was_right","distance","all",-0.11159252374446,0.131915719632497,0.397716886075115,1565
+"forward_visible","shot_was_right","angle","close & open play & first half",0.598291684596153,1.0606474529376,0.576295699401922,38
+"forward_visible","shot_was_right","angle","mid & open play & first half",1.58716322166346,0.950478285200695,0.10007195132989,64
+"forward_visible","shot_was_right","angle","long & open play & first half",0.0368504805994394,0.436664877675377,0.932917909371037,101
+"forward_visible","shot_was_right","angle","open play & first half",0.8627713635528,0.420540497129638,0.0415139624931756,203
+"forward_visible","shot_was_right","angle","close & set piece & first half",-0.150970488121966,0.539301922895427,0.779916817807559,151
+"forward_visible","shot_was_right","angle","mid & set piece & first half",-0.592579386918745,0.606138392097576,0.330274202196207,120
+"forward_visible","shot_was_right","angle","long & set piece & first half",-0.529419057723288,0.235566381586445,0.0258834802213483,175
+"forward_visible","shot_was_right","angle","set piece & first half",-0.411918755324291,0.262114848281766,0.116775807587577,446
+"forward_visible","shot_was_right","angle","close & first half",-0.0387229221461334,0.481461880510501,0.935983485145605,189
+"forward_visible","shot_was_right","angle","mid & first half",0.142004320596998,0.508024968268691,0.780163163628606,184
+"forward_visible","shot_was_right","angle","long & first half",-0.360780429391162,0.213640497272426,0.0924136215964534,276
+"forward_visible","shot_was_right","angle","first half",-0.0371780810427289,0.224256193828386,0.86837883478723,649
+"forward_visible","shot_was_right","angle","close & open play & second half",-0.720386838775714,0.897391686939777,0.424996976915739,69
+"forward_visible","shot_was_right","angle","mid & open play & second half",1.22431005907948,1.01497122074404,0.232160955244062,67
+"forward_visible","shot_was_right","angle","long & open play & second half",0.0612396691897001,0.312656191234128,0.844962767736701,162
+"forward_visible","shot_was_right","angle","open play & second half",0.161174743467638,0.312830608494452,0.606789258854661,298
+"forward_visible","shot_was_right","angle","close & set piece & second half",0.270726429014194,0.431488042735548,0.531110866109689,199
+"forward_visible","shot_was_right","angle","mid & set piece & second half",1.15725735391633,0.52646316463227,0.0294796318149399,152
+"forward_visible","shot_was_right","angle","long & set piece & second half",-0.384142263624272,0.230237204905049,0.0964093686522289,267
+"forward_visible","shot_was_right","angle","set piece & second half",0.130214524746316,0.209928334767796,0.535302674462665,618
+"forward_visible","shot_was_right","angle","close & second half",0.088630495522549,0.390212025631463,0.820494517133642,268
+"forward_visible","shot_was_right","angle","mid & second half",1.22267303949318,0.460393596698949,0.00850413793297802,219
+"forward_visible","shot_was_right","angle","long & second half",-0.224706290044034,0.185031722850252,0.225260000726176,429
+"forward_visible","shot_was_right","angle","second half",0.155744195054296,0.174834519367517,0.373266231355243,916
+"forward_visible","shot_was_right","angle","close & open play",-0.167998063280011,0.678166950627685,0.804836580348003,107
+"forward_visible","shot_was_right","angle","mid & open play",1.39962577098923,0.68349925307063,0.0426313954862479,131
+"forward_visible","shot_was_right","angle","long & open play",0.0566603392505769,0.252250087756633,0.822451561574787,263
+"forward_visible","shot_was_right","angle","open play",0.419467554092254,0.251178932865071,0.0955487319704848,501
+"forward_visible","shot_was_right","angle","close & set piece",0.112898294381457,0.335411831110402,0.736624909581672,350
+"forward_visible","shot_was_right","angle","mid & set piece",0.387732017293693,0.397543615347886,0.330278081271747,272
+"forward_visible","shot_was_right","angle","long & set piece",-0.432485904207971,0.168395351156706,0.0105502568364047,442
+"forward_visible","shot_was_right","angle","set piece",-0.0749812804830621,0.163643259100676,0.646902855555839,1064
+"forward_visible","shot_was_right","angle","close",0.0427114432215184,0.301997454021272,0.887593137958953,457
+"forward_visible","shot_was_right","angle","mid",0.725159203530421,0.341161415461009,0.0341520623283456,403
+"forward_visible","shot_was_right","angle","long",-0.26742207129197,0.140680892365717,0.0577227680506285,705
+"forward_visible","shot_was_right","angle","all",0.0814954499454055,0.13773761509322,0.554156065082425,1565
+"forward_visible","shot_was_right","defenders_in_cone","close & open play & first half",0.189046334578575,0.999253733099301,0.851038691085256,38
+"forward_visible","shot_was_right","defenders_in_cone","mid & open play & first half",1.04325758989608,0.793818617741361,0.193690515565841,64
+"forward_visible","shot_was_right","defenders_in_cone","long & open play & first half",0.016976145275899,0.401689234664898,0.966375913488363,101
+"forward_visible","shot_was_right","defenders_in_cone","open play & first half",0.713525945402926,0.408650239886823,0.0823367849841824,203
+"forward_visible","shot_was_right","defenders_in_cone","close & set piece & first half",-0.063820455649325,0.43278252173152,0.882965376365685,151
+"forward_visible","shot_was_right","defenders_in_cone","mid & set piece & first half",-0.587869044335984,0.529090788655768,0.268806435880487,120
+"forward_visible","shot_was_right","defenders_in_cone","long & set piece & first half",-0.400998894711747,0.229269058401551,0.0820693093254805,175
+"forward_visible","shot_was_right","defenders_in_cone","set piece & first half",0.014765824394925,0.245869647640564,0.952138514896787,446
+"forward_visible","shot_was_right","defenders_in_cone","close & first half",-0.0412245592447169,0.393486791149931,0.916673326470975,189
+"forward_visible","shot_was_right","defenders_in_cone","mid & first half",0.0369473916769774,0.439268566991072,0.933061002262247,184
+"forward_visible","shot_was_right","defenders_in_cone","long & first half",-0.239909618420426,0.20403026569813,0.240677976111346,276
+"forward_visible","shot_was_right","defenders_in_cone","first half",0.227590187993484,0.211902809469683,0.283209793083834,649
+"forward_visible","shot_was_right","defenders_in_cone","close & open play & second half",-1.70184828320333,0.872030547694598,0.0552323901209028,69
+"forward_visible","shot_was_right","defenders_in_cone","mid & open play & second half",0.682697019560446,0.909515577713604,0.455634675357423,67
+"forward_visible","shot_was_right","defenders_in_cone","long & open play & second half",-0.0411863177986565,0.291923524606441,0.8879806050875,162
+"forward_visible","shot_was_right","defenders_in_cone","open play & second half",-0.0303609222585458,0.319191119949728,0.924285426655235,298
+"forward_visible","shot_was_right","defenders_in_cone","close & set piece & second half",-0.251569342352455,0.364550405450437,0.490959488521229,199
+"forward_visible","shot_was_right","defenders_in_cone","mid & set piece & second half",-0.0465325992956488,0.517623885396174,0.928490154134333,152
+"forward_visible","shot_was_right","defenders_in_cone","long & set piece & second half",-0.216641317568188,0.219438249840462,0.324422023731988,267
+"forward_visible","shot_was_right","defenders_in_cone","set piece & second half",0.0583571655248589,0.198622568576872,0.769002725281486,618
+"forward_visible","shot_was_right","defenders_in_cone","close & second half",-0.471868619670182,0.332821641131604,0.157429108396016,268
+"forward_visible","shot_was_right","defenders_in_cone","mid & second half",0.0828888465747733,0.447163122242823,0.85311590503144,219
+"forward_visible","shot_was_right","defenders_in_cone","long & second half",-0.123149880785028,0.175397637126412,0.482988860511665,429
+"forward_visible","shot_was_right","defenders_in_cone","second half",0.0580735934010259,0.16942332527335,0.731848797893251,916
+"forward_visible","shot_was_right","defenders_in_cone","close & open play",-0.875488142774675,0.652690615372406,0.182727911029072,107
+"forward_visible","shot_was_right","defenders_in_cone","mid & open play",0.86956901548439,0.598906283046908,0.148968256107434,131
+"forward_visible","shot_was_right","defenders_in_cone","long & open play",-0.0187374422302833,0.234158025290588,0.936282508914734,263
+"forward_visible","shot_was_right","defenders_in_cone","open play",0.242007784114005,0.251270114447834,0.335945728455357,501
+"forward_visible","shot_was_right","defenders_in_cone","close & set piece",-0.184264062807925,0.277927633356132,0.507775227299303,350
+"forward_visible","shot_was_right","defenders_in_cone","mid & set piece",-0.311072623116782,0.359365318237494,0.387471732033787,272
+"forward_visible","shot_was_right","defenders_in_cone","long & set piece",-0.27433007027187,0.161442767776185,0.0899823317794695,442
+"forward_visible","shot_was_right","defenders_in_cone","set piece",0.0244028176895155,0.154275116207365,0.874347208441168,1064
+"forward_visible","shot_was_right","defenders_in_cone","close",-0.307053342755006,0.253751487944392,0.226887309390337,457
+"forward_visible","shot_was_right","defenders_in_cone","mid",0.0242085161171195,0.309182281391288,0.937629744506467,403
+"forward_visible","shot_was_right","defenders_in_cone","long",-0.157616318691889,0.133592623833282,0.238468286556485,705
+"forward_visible","shot_was_right","defenders_in_cone","all",0.110394289427285,0.132215098223514,0.403868038954057,1565
+"forward_visible","shot_was_right","distance + angle","close & open play & first half",0.598581281526269,1.0515449674194,0.572935115770682,38
+"forward_visible","shot_was_right","distance + angle","mid & open play & first half",1.49321921979856,0.948467086305978,0.120665241862329,64
+"forward_visible","shot_was_right","distance + angle","long & open play & first half",-0.0773203147763215,0.429501264859654,0.857509683842404,101
+"forward_visible","shot_was_right","distance + angle","open play & first half",0.328482552475282,0.400358619028918,0.412929485186853,203
+"forward_visible","shot_was_right","distance + angle","close & set piece & first half",-0.155062240746233,0.541376052953602,0.774957878159651,151
+"forward_visible","shot_was_right","distance + angle","mid & set piece & first half",-0.388140594494989,0.607413671209596,0.524079219889179,120
+"forward_visible","shot_was_right","distance + angle","long & set piece & first half",-0.542342082578435,0.230241707450741,0.0196297960234912,175
+"forward_visible","shot_was_right","distance + angle","set piece & first half",-0.507846961595178,0.246951364638561,0.0403241816205498,446
+"forward_visible","shot_was_right","distance + angle","close & first half",-0.0345038740817927,0.482903967841032,0.94311616459323,189
+"forward_visible","shot_was_right","distance + angle","mid & first half",0.264821822365454,0.50643507189466,0.601677397622523,184
+"forward_visible","shot_was_right","distance + angle","long & first half",-0.397008266070718,0.208512789144496,0.0579654152482777,276
+"forward_visible","shot_was_right","distance + angle","first half",-0.235256142382452,0.210369947303011,0.263856368745672,649
+"forward_visible","shot_was_right","distance + angle","close & open play & second half",-0.448509516930307,0.91199483563251,0.624524891672923,69
+"forward_visible","shot_was_right","distance + angle","mid & open play & second half",1.69025714742391,0.90031660580077,0.0650941611503629,67
+"forward_visible","shot_was_right","distance + angle","long & open play & second half",-0.0340763647326708,0.322824426940813,0.916067767468445,162
+"forward_visible","shot_was_right","distance + angle","open play & second half",-0.194252797068739,0.310369631183605,0.531882072545138,298
+"forward_visible","shot_was_right","distance + angle","close & set piece & second half",0.315769341759388,0.421986745200614,0.455185546775773,199
+"forward_visible","shot_was_right","distance + angle","mid & set piece & second half",1.15594764855265,0.51773196420376,0.0270689361462708,152
+"forward_visible","shot_was_right","distance + angle","long & set piece & second half",-0.390656045203132,0.228858782201095,0.0890071017575812,267
+"forward_visible","shot_was_right","distance + angle","set piece & second half",0.0175415085803641,0.20418972989192,0.931567646161417,618
+"forward_visible","shot_was_right","distance + angle","close & second half",0.139106123887566,0.385936380720026,0.718807851946615,268
+"forward_visible","shot_was_right","distance + angle","mid & second half",1.29216190328284,0.441277577800438,0.00377604213071201,219
+"forward_visible","shot_was_right","distance + angle","long & second half",-0.275734881407868,0.185140016591952,0.137141746310509,429
+"forward_visible","shot_was_right","distance + angle","second half",-0.029006548701047,0.170477618071242,0.86493091460553,916
+"forward_visible","shot_was_right","distance + angle","close & open play",-0.0306891401330618,0.671900934507738,0.963657651271727,107
+"forward_visible","shot_was_right","distance + angle","mid & open play",1.46088163153793,0.648789170204379,0.026058821499828,131
+"forward_visible","shot_was_right","distance + angle","long & open play",-0.0634129777412301,0.255836191248218,0.804434831508012,263
+"forward_visible","shot_was_right","distance + angle","open play",-0.0028691288331528,0.245465562099477,0.990678814006332,501
+"forward_visible","shot_was_right","distance + angle","close & set piece",0.145122371335986,0.333376249988545,0.663608067398629,350
+"forward_visible","shot_was_right","distance + angle","mid & set piece",0.475599182081589,0.391600303298353,0.225625280835484,272
+"forward_visible","shot_was_right","distance + angle","long & set piece",-0.441919417630238,0.166381929126782,0.00819461964922548,442
+"forward_visible","shot_was_right","distance + angle","set piece",-0.179439917759403,0.157146967523694,0.253769874463695,1064
+"forward_visible","shot_was_right","distance + angle","close",0.0760183575467035,0.30070964949824,0.800540116041036,457
+"forward_visible","shot_was_right","distance + angle","mid",0.835326424914883,0.333207149395831,0.0125752173896151,403
+"forward_visible","shot_was_right","distance + angle","long",-0.319292935635628,0.139543700385187,0.0224272742308902,705
+"forward_visible","shot_was_right","distance + angle","all",-0.109887855819999,0.132238273205994,0.406109893303178,1565
+"forward_visible","shot_was_right","distance + defenders_in_cone","close & open play & first half",0.285805879393414,1.01060294387763,0.779039254138591,38
+"forward_visible","shot_was_right","distance + defenders_in_cone","mid & open play & first half",1.04258307148562,0.801292263928882,0.198189444126173,64
+"forward_visible","shot_was_right","distance + defenders_in_cone","long & open play & first half",-0.134061037170386,0.405885071190008,0.741890819796592,101
+"forward_visible","shot_was_right","distance + defenders_in_cone","open play & first half",0.214503738955408,0.360523129216292,0.552533355242105,203
+"forward_visible","shot_was_right","distance + defenders_in_cone","close & set piece & first half",-0.0411391861606018,0.433593586137831,0.924539670555176,151
+"forward_visible","shot_was_right","distance + defenders_in_cone","mid & set piece & first half",-0.576523804660072,0.533505679155179,0.282102008616217,120
+"forward_visible","shot_was_right","distance + defenders_in_cone","long & set piece & first half",-0.448108494062773,0.227008795624981,0.0499958927482423,175
+"forward_visible","shot_was_right","distance + defenders_in_cone","set piece & first half",-0.261690674705014,0.217558696211262,0.229677943082654,446
+"forward_visible","shot_was_right","distance + defenders_in_cone","close & first half",-0.0127219145025079,0.393910290537706,0.974270436177301,189
+"forward_visible","shot_was_right","distance + defenders_in_cone","mid & first half",0.0554799612915313,0.442132951787131,0.900281594142276,184
+"forward_visible","shot_was_right","distance + defenders_in_cone","long & first half",-0.318701687438873,0.202644116775361,0.116946994388771,276
+"forward_visible","shot_was_right","distance + defenders_in_cone","first half",-0.0972128827040626,0.186408494320493,0.602194334671887,649
+"forward_visible","shot_was_right","distance + defenders_in_cone","close & open play & second half",-1.54478260535761,0.878865844124121,0.0835067194295707,69
+"forward_visible","shot_was_right","distance + defenders_in_cone","mid & open play & second half",0.896349176204243,0.823994902728357,0.280823564629168,67
+"forward_visible","shot_was_right","distance + defenders_in_cone","long & open play & second half",-0.153481342422371,0.306377932638731,0.61710045992889,162
+"forward_visible","shot_was_right","distance + defenders_in_cone","open play & second half",-0.480913355345478,0.285087385500952,0.092683649891065,298
+"forward_visible","shot_was_right","distance + defenders_in_cone","close & set piece & second half",-0.0667699779714341,0.359977546115252,0.853042430045929,199
+"forward_visible","shot_was_right","distance + defenders_in_cone","mid & set piece & second half",-0.0403018891538339,0.520406799668315,0.938375693747912,152
+"forward_visible","shot_was_right","distance + defenders_in_cone","long & set piece & second half",-0.257138965384556,0.219770844481885,0.243047189353924,267
+"forward_visible","shot_was_right","distance + defenders_in_cone","set piece & second half",-0.0383169456737141,0.185212305858318,0.836171220500192,618
+"forward_visible","shot_was_right","distance + defenders_in_cone","close & second half",-0.317098470330786,0.330558648057924,0.338295155345435,268
+"forward_visible","shot_was_right","distance + defenders_in_cone","mid & second half",0.150438172840543,0.44401552855557,0.735081377054072,219
+"forward_visible","shot_was_right","distance + defenders_in_cone","long & second half",-0.192101980342934,0.177720557929757,0.280344987951913,429
+"forward_visible","shot_was_right","distance + defenders_in_cone","second half",-0.128731300683826,0.155431676127425,0.407763772857965,916
+"forward_visible","shot_was_right","distance + defenders_in_cone","close & open play",-0.742274503154064,0.654107158744431,0.259097121341822,107
+"forward_visible","shot_was_right","distance + defenders_in_cone","mid & open play",0.952615849325863,0.585147120722052,0.106004561195891,131
+"forward_visible","shot_was_right","distance + defenders_in_cone","long & open play",-0.148702757694013,0.242130576387434,0.539660016817636,263
+"forward_visible","shot_was_right","distance + defenders_in_cone","open play",-0.225594314580286,0.223372956795356,0.313013257317044,501
+"forward_visible","shot_was_right","distance + defenders_in_cone","close & set piece",-0.0880270197507621,0.275923697723787,0.749898795614655,350
+"forward_visible","shot_was_right","distance + defenders_in_cone","mid & set piece",-0.304207084214818,0.360558035645204,0.39958288965021,272
+"forward_visible","shot_was_right","distance + defenders_in_cone","long & set piece",-0.321550289913021,0.160842848870128,0.0462086052693775,442
+"forward_visible","shot_was_right","distance + defenders_in_cone","set piece",-0.133488015122814,0.140895185386272,0.343636763313376,1064
+"forward_visible","shot_was_right","distance + defenders_in_cone","close",-0.215701261291792,0.252381488424901,0.393189189729861,457
+"forward_visible","shot_was_right","distance + defenders_in_cone","mid",0.0632504725367133,0.30890128754132,0.837864442804683,403
+"forward_visible","shot_was_right","distance + defenders_in_cone","long",-0.235148969129565,0.13433117740307,0.0804666395353508,705
+"forward_visible","shot_was_right","distance + defenders_in_cone","all",-0.1251787617606,0.119281602003706,0.294138574422791,1565
+"forward_visible","shot_was_right","angle + defenders_in_cone","close & open play & first half",0.205047516818807,1.02337814238698,0.842390081265654,38
+"forward_visible","shot_was_right","angle + defenders_in_cone","mid & open play & first half",0.975411882846819,0.807446581733769,0.23177941824472,64
+"forward_visible","shot_was_right","angle + defenders_in_cone","long & open play & first half",-0.0222954538211408,0.410805954537213,0.956829706955199,101
+"forward_visible","shot_was_right","angle + defenders_in_cone","open play & first half",0.618371177235974,0.379842048836124,0.105113583187601,203
+"forward_visible","shot_was_right","angle + defenders_in_cone","close & set piece & first half",-0.0299106528350775,0.430371181598223,0.944686352447031,151
+"forward_visible","shot_was_right","angle + defenders_in_cone","mid & set piece & first half",-0.495471413746488,0.525884071717474,0.348064414222023,120
+"forward_visible","shot_was_right","angle + defenders_in_cone","long & set piece & first half",-0.417280961640719,0.230112843578185,0.0715273412832878,175
+"forward_visible","shot_was_right","angle + defenders_in_cone","set piece & first half",-0.167032013950501,0.22814394627154,0.46447460820623,446
+"forward_visible","shot_was_right","angle + defenders_in_cone","close & first half",-0.00694460981274705,0.392419234085794,0.985899712984448,189
+"forward_visible","shot_was_right","angle + defenders_in_cone","mid & first half",0.0484317833766428,0.436144451316581,0.911704161100969,184
+"forward_visible","shot_was_right","angle + defenders_in_cone","long & first half",-0.266177632848496,0.205490775494464,0.196305927550238,276
+"forward_visible","shot_was_right","angle + defenders_in_cone","first half",0.0768915275372658,0.19656409203964,0.69579493103336,649
+"forward_visible","shot_was_right","angle + defenders_in_cone","close & open play & second half",-1.6622189003541,0.877200762075675,0.0625531454225234,69
+"forward_visible","shot_was_right","angle + defenders_in_cone","mid & open play & second half",0.678366988353004,0.92433383351893,0.465733322982015,67
+"forward_visible","shot_was_right","angle + defenders_in_cone","long & open play & second half",-0.0846033775387331,0.297899954659056,0.77678275060866,162
+"forward_visible","shot_was_right","angle + defenders_in_cone","open play & second half",-0.115977481573569,0.289293461727167,0.688785625113743,298
+"forward_visible","shot_was_right","angle + defenders_in_cone","close & set piece & second half",-0.143570864850956,0.366922238144728,0.69601440712843,199
+"forward_visible","shot_was_right","angle + defenders_in_cone","mid & set piece & second half",-0.0582109203397466,0.507188870062036,0.908781655943439,152
+"forward_visible","shot_was_right","angle + defenders_in_cone","long & set piece & second half",-0.250281279116232,0.220379121136518,0.257122251416608,267
+"forward_visible","shot_was_right","angle + defenders_in_cone","set piece & second half",0.0518658575523044,0.189081418567097,0.783942995055288,618
+"forward_visible","shot_was_right","angle + defenders_in_cone","close & second half",-0.384862308614967,0.334632251527773,0.251141270089101,268
+"forward_visible","shot_was_right","angle + defenders_in_cone","mid & second half",0.114895612992948,0.443107185808622,0.795655502881452,219
+"forward_visible","shot_was_right","angle + defenders_in_cone","long & second half",-0.159097204672682,0.176857887773293,0.368855059529916,429
+"forward_visible","shot_was_right","angle + defenders_in_cone","second half",0.0345632031692943,0.159026057079693,0.827989648323976,916
+"forward_visible","shot_was_right","angle + defenders_in_cone","close & open play",-0.837794453164545,0.657662303947464,0.205566724079445,107
+"forward_visible","shot_was_right","angle + defenders_in_cone","mid & open play",0.864071225413916,0.601059401958793,0.153012512445669,131
+"forward_visible","shot_was_right","angle + defenders_in_cone","long & open play",-0.06015024486837,0.238651246175328,0.801208140051636,263
+"forward_visible","shot_was_right","angle + defenders_in_cone","open play",0.152020900449035,0.230020120864827,0.508980996036725,501
+"forward_visible","shot_was_right","angle + defenders_in_cone","close & set piece",-0.111217029783745,0.276925977954554,0.688216916913051,350
+"forward_visible","shot_was_right","angle + defenders_in_cone","mid & set piece",-0.244824077081162,0.353413871939287,0.489072299419704,272
+"forward_visible","shot_was_right","angle + defenders_in_cone","long & set piece",-0.303730087792083,0.161856724105086,0.0612462580747871,442
+"forward_visible","shot_was_right","angle + defenders_in_cone","set piece",-0.0449711848163977,0.145128636522316,0.756719811432657,1064
+"forward_visible","shot_was_right","angle + defenders_in_cone","close",-0.244691805066853,0.253374274018246,0.334693255951968,457
+"forward_visible","shot_was_right","angle + defenders_in_cone","mid",0.0551967075381085,0.306292172675285,0.85707972302795,403
+"forward_visible","shot_was_right","angle + defenders_in_cone","long",-0.191154073351843,0.134553347154803,0.155861308575015,705
+"forward_visible","shot_was_right","angle + defenders_in_cone","all",0.0383245842844532,0.123386795434041,0.756142215414407,1565
+"forward_visible","shot_was_right","distance + angle + defenders_in_cone","close & open play & first half",0.210030900126957,1.01346881156505,0.837096268448134,38
+"forward_visible","shot_was_right","distance + angle + defenders_in_cone","mid & open play & first half",0.962594702632821,0.814215406404317,0.241854895564322,64
+"forward_visible","shot_was_right","distance + angle + defenders_in_cone","long & open play & first half",-0.107605650963199,0.407431560073709,0.792263374368612,101
+"forward_visible","shot_was_right","distance + angle + defenders_in_cone","open play & first half",0.197902763724609,0.365098951453635,0.588391906536975,203
+"forward_visible","shot_was_right","distance + angle + defenders_in_cone","close & set piece & first half",-0.0469956734889729,0.429777082251684,0.913075872730132,151
+"forward_visible","shot_was_right","distance + angle + defenders_in_cone","mid & set piece & first half",-0.364141827216454,0.5306491791213,0.493955912540552,120
+"forward_visible","shot_was_right","distance + angle + defenders_in_cone","long & set piece & first half",-0.441814377886769,0.226903445450552,0.0531648478487035,175
+"forward_visible","shot_was_right","distance + angle + defenders_in_cone","set piece & first half",-0.263588820735512,0.217638760349233,0.226494221430746,446
+"forward_visible","shot_was_right","distance + angle + defenders_in_cone","close & first half",-0.0131306400108455,0.393399862365579,0.97340986072,189
+"forward_visible","shot_was_right","distance + angle + defenders_in_cone","mid & first half",0.136135444710692,0.436782117910192,0.755647852684606,184
+"forward_visible","shot_was_right","distance + angle + defenders_in_cone","long & first half",-0.305566464567426,0.202451061625635,0.13237820104291,276
+"forward_visible","shot_was_right","distance + angle + defenders_in_cone","first half",-0.0949323972503367,0.186626382500608,0.611153428316399,649
+"forward_visible","shot_was_right","distance + angle + defenders_in_cone","close & open play & second half",-1.40122678618151,0.892907113263182,0.12151260695831,69
+"forward_visible","shot_was_right","distance + angle + defenders_in_cone","mid & open play & second half",1.16212913595403,0.820270539820242,0.161557422276238,67
+"forward_visible","shot_was_right","distance + angle + defenders_in_cone","long & open play & second half",-0.153759793653912,0.307426246655622,0.617668504842643,162
+"forward_visible","shot_was_right","distance + angle + defenders_in_cone","open play & second half",-0.406236217621452,0.287554734015813,0.158797459890165,298
+"forward_visible","shot_was_right","distance + angle + defenders_in_cone","close & set piece & second half",-0.0960212341249476,0.359291858328846,0.789559533786569,199
+"forward_visible","shot_was_right","distance + angle + defenders_in_cone","mid & set piece & second half",-0.00206890461513319,0.505637990587352,0.996740874962109,152
+"forward_visible","shot_was_right","distance + angle + defenders_in_cone","long & set piece & second half",-0.259252331042269,0.220450179758607,0.240657050443663,267
+"forward_visible","shot_was_right","distance + angle + defenders_in_cone","set piece & second half",-0.0293023710452883,0.185636605902802,0.874628538107892,618
+"forward_visible","shot_was_right","distance + angle + defenders_in_cone","close & second half",-0.334690205875392,0.329792457493454,0.311109562035975,268
+"forward_visible","shot_was_right","distance + angle + defenders_in_cone","mid & second half",0.264293728954413,0.431776259590503,0.54111606993515,219
+"forward_visible","shot_was_right","distance + angle + defenders_in_cone","long & second half",-0.192160246546345,0.177947829323997,0.280814639691406,429
+"forward_visible","shot_was_right","distance + angle + defenders_in_cone","second half",-0.109453794536954,0.156045378388564,0.483218300148146,916
+"forward_visible","shot_was_right","distance + angle + defenders_in_cone","close & open play",-0.699177439239881,0.650407155730063,0.28491809128637,107
+"forward_visible","shot_was_right","distance + angle + defenders_in_cone","mid & open play",0.955155030417142,0.57836565885871,0.101132287071123,131
+"forward_visible","shot_was_right","distance + angle + defenders_in_cone","long & open play",-0.147446317309784,0.242495859003295,0.543698177913627,263
+"forward_visible","shot_was_right","distance + angle + defenders_in_cone","open play",-0.186517742658382,0.22577526849542,0.409132520643376,501
+"forward_visible","shot_was_right","distance + angle + defenders_in_cone","close & set piece",-0.0885843818171619,0.276332671763318,0.748729211744316,350
+"forward_visible","shot_was_right","distance + angle + defenders_in_cone","mid & set piece",-0.165415340356798,0.352308039373469,0.639081862846029,272
+"forward_visible","shot_was_right","distance + angle + defenders_in_cone","long & set piece",-0.318810389117225,0.161146434613141,0.0485123478664344,442
+"forward_visible","shot_was_right","distance + angle + defenders_in_cone","set piece",-0.128499025839171,0.140925004093897,0.362068048030284,1064
+"forward_visible","shot_was_right","distance + angle + defenders_in_cone","close",-0.216733269427253,0.252566681033279,0.391279365334446,457
+"forward_visible","shot_was_right","distance + angle + defenders_in_cone","mid",0.168181274904774,0.302305175458642,0.57829829506998,403
+"forward_visible","shot_was_right","distance + angle + defenders_in_cone","long",-0.23239410704336,0.134420498014623,0.0842752226244183,705
+"forward_visible","shot_was_right","distance + angle + defenders_in_cone","all",-0.115036938810811,0.119507652943355,0.335902216240218,1565
