@@ -92,6 +92,37 @@ It sounds fussy. It exists because a wrong figure in a published summary is
 much more expensive than a missing one, and checking by eye works right up until
 the day it does not.
 
+## Where the method comes from
+
+Running an analysis under every defensible version of its choices is not a new
+idea. It is multiverse analysis (Steegen, Tuerlinckx, Gelman and Vanpaemel,
+2016) and specification curve analysis (Simonsohn, Simmons and Nelson), both
+well established in psychology and economics.
+
+The most cited demonstration of the problem used football data. Silberzahn and
+colleagues gave 29 analyst teams one dataset and asked whether referees give
+more red cards to dark-skinned players. The teams reached materially different
+answers from the same rows. "Many Analysts, One Data Set", 2018.
+
+Football supplied the canonical example and football analytics then largely did
+not adopt the response. That gap is what this repository is poking at.
+
+Two CRAN packages already implement the general method well: `multiverse` and
+`specr`. The harness in `R/multiverse.R` is a deliberately small thing, about
+sixty lines, because the interesting object here is the sensitivity ranking
+across a handful of domain choices rather than a general framework. If you want
+to do this properly on your own work, start with `specr`.
+
+## Prior work on the football question
+
+Whether a player should have shot or passed is a well studied problem, not a new
+one. Yeung and colleagues frame 1-vs-1 shot-taking game-theoretically (2024).
+Caldeira and colleagues model finishing space value for shooting decisions
+(2024). Decroos opens his thesis on valuing actions with exactly this question.
+
+What is different here is not the question. It is running the answer 36 times.
+
+
 ## Limitations
 
 Freeze frames carry no player identities, only a flag for teammate or opponent.
