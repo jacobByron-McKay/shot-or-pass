@@ -2,9 +2,9 @@
 data-raw/
 cache/
 
-# exploratory working and private notes
+# working files
 scratch/
-INTERVIEW-PREP.md
+private/
 
 .Rproj.user/
 .Rhistory

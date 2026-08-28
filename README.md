@@ -117,8 +117,8 @@ barely above what chance would give you, and 46.9% point the way the hypothesis
 predicted, which is a coin flip. Just 3.0% are both significant and in the
 predicted direction.
 
-The hypothesis is not merely unsupported. It is unsupported robustly, which is a
-stronger and more useful statement than a single p value ever is.
+The hypothesis is not just unsupported. It fails everywhere I looked, which is a
+far more useful thing to be able to say than a single p value.
 
 Two multiverses, doing different jobs. `specr` handles the model specification
 side, which is what it was built for. `R/multiverse.R` handles the choices made
