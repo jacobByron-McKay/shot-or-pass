@@ -1,0 +1,97 @@
+option_pool,completion,receiver_context,margin,corners,shoot_was_right,mean_edge
+ahead,distance,360,any edge,by team,43.70904325032765,0.014939333407305333
+ahead,distance,360,any edge,flat,43.70904325032765,0.014667778208661173
+ahead,distance,360,clear edge,by team,37.876802096985585,0.014939333407305333
+ahead,distance,360,clear edge,flat,37.876802096985585,0.014667778208661173
+ahead,distance,distance only,any edge,by team,44.69200524246396,0.01773444251676052
+ahead,distance,distance only,any edge,flat,44.69200524246396,0.0174658479135933
+ahead,distance,distance only,clear edge,by team,37.352555701179554,0.01773444251676052
+ahead,distance,distance only,clear edge,flat,37.2870249017038,0.0174658479135933
+ahead,pressure,360,any edge,by team,43.97116644823067,0.016203182049165512
+ahead,pressure,360,any edge,flat,43.90563564875492,0.015928436953284664
+ahead,pressure,360,clear edge,by team,37.81127129750983,0.016203182049165512
+ahead,pressure,360,clear edge,flat,37.81127129750983,0.015928436953284664
+ahead,pressure,distance only,any edge,by team,44.88859764089122,0.01904233268896702
+ahead,pressure,distance only,any edge,flat,44.88859764089122,0.018770385560311277
+ahead,pressure,distance only,clear edge,by team,37.61467889908257,0.01904233268896702
+ahead,pressure,distance only,clear edge,flat,37.61467889908257,0.018770385560311277
+ahead,tracking,360,any edge,by team,55.76671035386632,0.04309480768847651
+ahead,tracking,360,any edge,flat,55.63564875491481,0.042732561838156255
+ahead,tracking,360,clear edge,by team,42.6605504587156,0.04309480768847651
+ahead,tracking,360,clear edge,flat,42.52948885976409,0.042732561838156255
+ahead,tracking,distance only,any edge,by team,59.43643512450853,0.04519314206962915
+ahead,tracking,distance only,any edge,flat,59.305373525557016,0.04483467883642643
+ahead,tracking,distance only,clear edge,by team,44.10222804718217,0.04519314206962915
+ahead,tracking,distance only,clear edge,flat,43.90563564875492,0.04483467883642643
+clearly_ahead,distance,360,any edge,by team,49.737876802096984,0.02839715706319667
+clearly_ahead,distance,360,any edge,flat,49.737876802096984,0.028109969248691708
+clearly_ahead,distance,360,clear edge,by team,43.6435124508519,0.02839715706319667
+clearly_ahead,distance,360,clear edge,flat,43.6435124508519,0.028109969248691708
+clearly_ahead,distance,distance only,any edge,by team,51.048492791612055,0.031091741088062622
+clearly_ahead,distance,distance only,any edge,flat,51.048492791612055,0.030807514308290068
+clearly_ahead,distance,distance only,clear edge,by team,43.57798165137615,0.031091741088062622
+clearly_ahead,distance,distance only,clear edge,flat,43.51245085190039,0.030807514308290068
+clearly_ahead,pressure,360,any edge,by team,49.93446920052425,0.029325127433784806
+clearly_ahead,pressure,360,any edge,flat,49.86893840104849,0.029035628958100045
+clearly_ahead,pressure,360,clear edge,by team,43.51245085190039,0.029325127433784806
+clearly_ahead,pressure,360,clear edge,flat,43.51245085190039,0.029035628958100045
+clearly_ahead,pressure,distance only,any edge,by team,51.048492791612055,0.032062846309378674
+clearly_ahead,pressure,distance only,any edge,flat,51.048492791612055,0.031776153354024
+clearly_ahead,pressure,distance only,clear edge,by team,43.70904325032765,0.032062846309378674
+clearly_ahead,pressure,distance only,clear edge,flat,43.70904325032765,0.031776153354024
+clearly_ahead,tracking,360,any edge,by team,60.09174311926605,0.05308666161900554
+clearly_ahead,tracking,360,any edge,flat,59.96068152031455,0.05271052425083299
+clearly_ahead,tracking,360,clear edge,by team,47.83748361730013,0.05308666161900554
+clearly_ahead,tracking,360,clear edge,flat,47.706422018348626,0.05271052425083299
+clearly_ahead,tracking,distance only,any edge,by team,62.58191349934469,0.055080421605287526
+clearly_ahead,tracking,distance only,any edge,flat,62.516382699868934,0.05470766409762258
+clearly_ahead,tracking,distance only,clear edge,by team,49.344692005242464,0.055080421605287526
+clearly_ahead,tracking,distance only,clear edge,flat,49.21363040629096,0.05470766409762258
+in_box,distance,360,any edge,by team,51.37614678899083,0.01935166516498076
+in_box,distance,360,any edge,flat,51.37614678899083,0.01903180857215281
+in_box,distance,360,clear edge,by team,42.463958060288334,0.01935166516498076
+in_box,distance,360,clear edge,flat,42.33289646133683,0.01903180857215281
+in_box,distance,distance only,any edge,by team,52.293577981651374,0.021587513864069
+in_box,distance,distance only,any edge,flat,52.293577981651374,0.02127010043195844
+in_box,distance,distance only,clear edge,by team,41.61205766710354,0.021587513864069
+in_box,distance,distance only,clear edge,flat,41.48099606815203,0.02127010043195844
+in_box,pressure,360,any edge,by team,51.63826998689384,0.020660986281968545
+in_box,pressure,360,any edge,flat,51.63826998689384,0.02033762139885864
+in_box,pressure,360,clear edge,by team,42.463958060288334,0.020660986281968545
+in_box,pressure,360,clear edge,flat,42.33289646133683,0.02033762139885864
+in_box,pressure,distance only,any edge,by team,52.424639580602886,0.022917465685059684
+in_box,pressure,distance only,any edge,flat,52.424639580602886,0.022596415817904364
+in_box,pressure,distance only,clear edge,by team,41.87418086500656,0.022917465685059684
+in_box,pressure,distance only,clear edge,flat,41.8086500655308,0.022596415817904364
+in_box,tracking,360,any edge,by team,62.38532110091744,0.04697623784842424
+in_box,tracking,360,any edge,flat,62.31979030144168,0.046573832161916205
+in_box,tracking,360,clear edge,by team,47.05111402359109,0.04697623784842424
+in_box,tracking,360,clear edge,flat,46.788990825688074,0.046573832161916205
+in_box,tracking,distance only,any edge,by team,66.1205766710354,0.048523212314730224
+in_box,tracking,distance only,any edge,flat,65.98951507208388,0.04812462125110035
+in_box,tracking,distance only,clear edge,by team,48.1651376146789,0.048523212314730224
+in_box,tracking,distance only,clear edge,flat,47.90301441677588,0.04812462125110035
+with_cutbacks,distance,360,any edge,by team,31.323722149410223,-0.025214923652130593
+with_cutbacks,distance,360,any edge,flat,31.323722149410223,-0.025343387656641594
+with_cutbacks,distance,360,clear edge,by team,21.035386631716907,-0.025214923652130593
+with_cutbacks,distance,360,clear edge,flat,21.035386631716907,-0.025343387656641594
+with_cutbacks,distance,distance only,any edge,by team,31.847968545216254,-0.021984255226662558
+with_cutbacks,distance,distance only,any edge,flat,31.847968545216254,-0.02210914250889057
+with_cutbacks,distance,distance only,clear edge,by team,19.790301441677588,-0.021984255226662558
+with_cutbacks,distance,distance only,clear edge,flat,19.65923984272608,-0.02210914250889057
+with_cutbacks,pressure,360,any edge,by team,31.65137614678899,-0.023677033724113204
+with_cutbacks,pressure,360,any edge,flat,31.65137614678899,-0.023808678528118996
+with_cutbacks,pressure,360,clear edge,by team,21.035386631716907,-0.023677033724113204
+with_cutbacks,pressure,360,clear edge,flat,20.96985583224115,-0.023808678528118996
+with_cutbacks,pressure,distance only,any edge,by team,32.306684141546526,-0.020365271372277494
+with_cutbacks,pressure,distance only,any edge,flat,32.306684141546526,-0.020493831495633802
+with_cutbacks,pressure,distance only,clear edge,by team,20.18348623853211,-0.020365271372277494
+with_cutbacks,pressure,distance only,clear edge,flat,20.117955439056356,-0.020493831495633802
+with_cutbacks,tracking,360,any edge,by team,47.96854521625164,0.012700825263435802
+with_cutbacks,tracking,360,any edge,flat,47.77195281782438,0.01246095890440435
+with_cutbacks,tracking,360,clear edge,by team,30.53735255570118,0.012700825263435802
+with_cutbacks,tracking,360,clear edge,flat,30.340760157273916,0.01246095890440435
+with_cutbacks,tracking,distance only,any edge,by team,51.11402359108781,0.014966720502379061
+with_cutbacks,tracking,distance only,any edge,flat,50.982961992136296,0.014732427954187177
+with_cutbacks,tracking,distance only,clear edge,by team,30.668414154652684,0.014966720502379061
+with_cutbacks,tracking,distance only,clear edge,flat,30.40629095674967,0.014732427954187177
