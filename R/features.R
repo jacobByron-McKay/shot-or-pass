@@ -17,14 +17,31 @@ frame_players <- function(frame) {
 #' Everyone the shooter could have played forward to, with their own geometry.
 #'
 #' A teammate only counts as an option if they are closer to goal than the
-#' shooter. Square and backward passes are not alternatives to shooting.
+#' shooter. That was the original rule, and it quietly drops the cutback: see
+#' `behind_options()` for the teammates it leaves out.
 passing_options <- function(players, shot_x, shot_y) {
-  opp   <- players[!players$teammate & !players$keeper, ]
   mates <- players[players$teammate & !players$actor & players$x > shot_x, ]
+  option_table(players, mates, shot_x, shot_y)
+}
+
+#' Teammates level with or behind the ball, close enough for a lay-off or a
+#' cutback. `players$x > shot_x` throws all of these away, yet over half the
+#' passes that set up a shot from shooting range go backwards.
+behind_options <- function(players, shot_x, shot_y, within = 15) {
+  mates <- players[players$teammate & !players$actor & players$x <= shot_x, ]
+  mates <- mates[sqrt((mates$x - shot_x)^2 + (mates$y - shot_y)^2) <= within, ]
+  option_table(players, mates, shot_x, shot_y)
+}
+
+#' The measurements taken on each possible receiver.
+option_table <- function(players, mates, shot_x, shot_y) {
+  opp <- players[!players$teammate & !players$keeper, ]
   if (nrow(mates) == 0) {
     return(data.frame(x = numeric(0), y = numeric(0), distance = numeric(0),
                       angle = numeric(0), defenders_in_cone = numeric(0),
-                      nearest_defender = numeric(0), pass_length = numeric(0)))
+                      nearest_defender = numeric(0), pass_length = numeric(0),
+                      lane_blockers = numeric(0), offside = logical(0),
+                      open_goal = numeric(0)))
   }
   cone <- vapply(seq_len(nrow(mates)), function(i) {
     if (nrow(opp) == 0) return(0)
@@ -34,15 +51,36 @@ passing_options <- function(players, shot_x, shot_y) {
     if (nrow(opp) == 0) return(99)
     min(sqrt((opp$x - mates$x[i])^2 + (opp$y - mates$y[i])^2))
   }, numeric(1))
+  lane <- vapply(seq_len(nrow(mates)), function(i) {
+    as.numeric(lane_blockers(opp$x, opp$y, shot_x, shot_y, mates$x[i], mates$y[i]))
+  }, numeric(1))
+  all_opp <- players[!players$teammate, ]
+  line <- offside_line(all_opp$x, shot_x)
+  k <- keeper_of(players)
   data.frame(
     x = mates$x, y = mates$y,
     distance = goal_distance(mates$x, mates$y),
     angle    = goal_angle(mates$x, mates$y),
     defenders_in_cone = cone,
     nearest_defender  = near,
-    pass_length = sqrt((mates$x - shot_x)^2 + (mates$y - shot_y)^2)
+    pass_length = sqrt((mates$x - shot_x)^2 + (mates$y - shot_y)^2),
+    lane_blockers = lane,
+    offside = mates$x > line,
+    open_goal = open_goal_share(mates$x, mates$y, k[1], k[2], KEEPER_REACH)
   )
 }
+
+#' Where the opposing keeper is, or NA if the camera missed them.
+keeper_of <- function(players) {
+  k <- players[!players$teammate & players$keeper, ]
+  if (nrow(k) == 0) return(c(NA_real_, NA_real_))
+  c(k$x[1], k$y[1])
+}
+
+## Half-width of the goal a keeper covers, in yards, for the open-goal share.
+## Kept as a description only: the shot model found no use for it at any reach
+## from 0.5 to 3 yards, and uses the keeper's distance off the line instead.
+KEEPER_REACH <- 1
 
 #' Build the shot table for a single match.
 #'
@@ -64,6 +102,8 @@ shots_for_match <- function(match_id) {
     loc <- unlist(e$location)
     opp <- players[!players$teammate & !players$keeper, ]
     opts <- passing_options(players, loc[1], loc[2])
+    behind <- behind_options(players, loc[1], loc[2])
+    k <- keeper_of(players)
     poly <- visible_polygon(fr)
 
     rows[[length(rows) + 1]] <- data.frame(
@@ -83,9 +123,14 @@ shots_for_match <- function(match_id) {
       play_pattern = if (is.null(e$play_pattern$name)) NA_character_ else e$play_pattern$name,
       statsbomb_xg = if (is.null(e$shot$statsbomb_xg)) 0 else e$shot$statsbomb_xg,
       goal = as.integer(identical(e$shot$outcome$name, "Goal")),
+      shot_type  = if (is.null(e$shot$type$name)) NA_character_ else e$shot$type$name,
+      first_time = isTRUE(e$shot$first_time),
+      keeper_x = k[1], keeper_y = k[2],
+      open_goal = open_goal_share(loc[1], loc[2], k[1], k[2], KEEPER_REACH),
       stringsAsFactors = FALSE
     )
     rows[[length(rows)]]$options <- I(list(opts))
+    rows[[length(rows)]]$behind  <- I(list(behind))
   }
   if (length(rows) == 0) return(NULL)
   do.call(rbind, rows)

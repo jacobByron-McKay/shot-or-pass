@@ -1,0 +1,97 @@
+"option_pool","completion","receiver_context","margin","corners","shoot_was_right","mean_edge"
+"ahead","distance","360","any edge","by team",43.7090432503277,0.0149393334073053
+"ahead","distance","360","any edge","flat",43.7090432503277,0.0146677782086611
+"ahead","distance","360","clear edge","by team",37.8768020969856,0.0149393334073053
+"ahead","distance","360","clear edge","flat",37.8768020969856,0.0146677782086611
+"ahead","distance","distance only","any edge","by team",44.692005242464,0.0177344425167605
+"ahead","distance","distance only","any edge","flat",44.692005242464,0.0174658479135932
+"ahead","distance","distance only","clear edge","by team",37.3525557011796,0.0177344425167605
+"ahead","distance","distance only","clear edge","flat",37.2870249017038,0.0174658479135932
+"ahead","pressure","360","any edge","by team",43.9711664482307,0.0162031820491655
+"ahead","pressure","360","any edge","flat",43.9056356487549,0.0159284369532846
+"ahead","pressure","360","clear edge","by team",37.8112712975098,0.0162031820491655
+"ahead","pressure","360","clear edge","flat",37.8112712975098,0.0159284369532846
+"ahead","pressure","distance only","any edge","by team",44.8885976408912,0.019042332688967
+"ahead","pressure","distance only","any edge","flat",44.8885976408912,0.0187703855603112
+"ahead","pressure","distance only","clear edge","by team",37.6146788990826,0.019042332688967
+"ahead","pressure","distance only","clear edge","flat",37.6146788990826,0.0187703855603112
+"ahead","tracking","360","any edge","by team",55.7667103538663,0.0430948076884764
+"ahead","tracking","360","any edge","flat",55.6356487549148,0.0427325618381562
+"ahead","tracking","360","clear edge","by team",42.6605504587156,0.0430948076884764
+"ahead","tracking","360","clear edge","flat",42.5294888597641,0.0427325618381562
+"ahead","tracking","distance only","any edge","by team",59.4364351245085,0.0451931420696291
+"ahead","tracking","distance only","any edge","flat",59.305373525557,0.0448346788364263
+"ahead","tracking","distance only","clear edge","by team",44.1022280471822,0.0451931420696291
+"ahead","tracking","distance only","clear edge","flat",43.9056356487549,0.0448346788364263
+"clearly_ahead","distance","360","any edge","by team",49.737876802097,0.0283971570631966
+"clearly_ahead","distance","360","any edge","flat",49.737876802097,0.0281099692486917
+"clearly_ahead","distance","360","clear edge","by team",43.6435124508519,0.0283971570631966
+"clearly_ahead","distance","360","clear edge","flat",43.6435124508519,0.0281099692486917
+"clearly_ahead","distance","distance only","any edge","by team",51.0484927916121,0.0310917410880625
+"clearly_ahead","distance","distance only","any edge","flat",51.0484927916121,0.03080751430829
+"clearly_ahead","distance","distance only","clear edge","by team",43.5779816513761,0.0310917410880625
+"clearly_ahead","distance","distance only","clear edge","flat",43.5124508519004,0.03080751430829
+"clearly_ahead","pressure","360","any edge","by team",49.9344692005242,0.0293251274337848
+"clearly_ahead","pressure","360","any edge","flat",49.8689384010485,0.0290356289581
+"clearly_ahead","pressure","360","clear edge","by team",43.5124508519004,0.0293251274337848
+"clearly_ahead","pressure","360","clear edge","flat",43.5124508519004,0.0290356289581
+"clearly_ahead","pressure","distance only","any edge","by team",51.0484927916121,0.0320628463093786
+"clearly_ahead","pressure","distance only","any edge","flat",51.0484927916121,0.0317761533540239
+"clearly_ahead","pressure","distance only","clear edge","by team",43.7090432503277,0.0320628463093786
+"clearly_ahead","pressure","distance only","clear edge","flat",43.7090432503277,0.0317761533540239
+"clearly_ahead","tracking","360","any edge","by team",60.091743119266,0.0530866616190055
+"clearly_ahead","tracking","360","any edge","flat",59.9606815203146,0.0527105242508329
+"clearly_ahead","tracking","360","clear edge","by team",47.8374836173001,0.0530866616190055
+"clearly_ahead","tracking","360","clear edge","flat",47.7064220183486,0.0527105242508329
+"clearly_ahead","tracking","distance only","any edge","by team",62.5819134993447,0.0550804216052874
+"clearly_ahead","tracking","distance only","any edge","flat",62.5163826998689,0.0547076640976225
+"clearly_ahead","tracking","distance only","clear edge","by team",49.3446920052425,0.0550804216052874
+"clearly_ahead","tracking","distance only","clear edge","flat",49.213630406291,0.0547076640976225
+"in_box","distance","360","any edge","by team",51.3761467889908,0.0193516651649807
+"in_box","distance","360","any edge","flat",51.3761467889908,0.0190318085721528
+"in_box","distance","360","clear edge","by team",42.4639580602883,0.0193516651649807
+"in_box","distance","360","clear edge","flat",42.3328964613368,0.0190318085721528
+"in_box","distance","distance only","any edge","by team",52.2935779816514,0.0215875138640689
+"in_box","distance","distance only","any edge","flat",52.2935779816514,0.0212701004319584
+"in_box","distance","distance only","clear edge","by team",41.6120576671035,0.0215875138640689
+"in_box","distance","distance only","clear edge","flat",41.480996068152,0.0212701004319584
+"in_box","pressure","360","any edge","by team",51.6382699868938,0.0206609862819685
+"in_box","pressure","360","any edge","flat",51.6382699868938,0.0203376213988586
+"in_box","pressure","360","clear edge","by team",42.4639580602883,0.0206609862819685
+"in_box","pressure","360","clear edge","flat",42.3328964613368,0.0203376213988586
+"in_box","pressure","distance only","any edge","by team",52.4246395806029,0.0229174656850596
+"in_box","pressure","distance only","any edge","flat",52.4246395806029,0.0225964158179043
+"in_box","pressure","distance only","clear edge","by team",41.8741808650066,0.0229174656850596
+"in_box","pressure","distance only","clear edge","flat",41.8086500655308,0.0225964158179043
+"in_box","tracking","360","any edge","by team",62.3853211009174,0.0469762378484242
+"in_box","tracking","360","any edge","flat",62.3197903014417,0.0465738321619161
+"in_box","tracking","360","clear edge","by team",47.0511140235911,0.0469762378484242
+"in_box","tracking","360","clear edge","flat",46.7889908256881,0.0465738321619161
+"in_box","tracking","distance only","any edge","by team",66.1205766710354,0.0485232123147301
+"in_box","tracking","distance only","any edge","flat",65.9895150720839,0.0481246212511002
+"in_box","tracking","distance only","clear edge","by team",48.1651376146789,0.0485232123147301
+"in_box","tracking","distance only","clear edge","flat",47.9030144167759,0.0481246212511002
+"with_cutbacks","distance","360","any edge","by team",31.3237221494102,-0.0252149236521306
+"with_cutbacks","distance","360","any edge","flat",31.3237221494102,-0.0253433876566416
+"with_cutbacks","distance","360","clear edge","by team",21.0353866317169,-0.0252149236521306
+"with_cutbacks","distance","360","clear edge","flat",21.0353866317169,-0.0253433876566416
+"with_cutbacks","distance","distance only","any edge","by team",31.8479685452163,-0.0219842552266625
+"with_cutbacks","distance","distance only","any edge","flat",31.8479685452163,-0.0221091425088906
+"with_cutbacks","distance","distance only","clear edge","by team",19.7903014416776,-0.0219842552266625
+"with_cutbacks","distance","distance only","clear edge","flat",19.6592398427261,-0.0221091425088906
+"with_cutbacks","pressure","360","any edge","by team",31.651376146789,-0.0236770337241132
+"with_cutbacks","pressure","360","any edge","flat",31.651376146789,-0.023808678528119
+"with_cutbacks","pressure","360","clear edge","by team",21.0353866317169,-0.0236770337241132
+"with_cutbacks","pressure","360","clear edge","flat",20.9698558322412,-0.023808678528119
+"with_cutbacks","pressure","distance only","any edge","by team",32.3066841415465,-0.0203652713722775
+"with_cutbacks","pressure","distance only","any edge","flat",32.3066841415465,-0.0204938314956338
+"with_cutbacks","pressure","distance only","clear edge","by team",20.1834862385321,-0.0203652713722775
+"with_cutbacks","pressure","distance only","clear edge","flat",20.1179554390564,-0.0204938314956338
+"with_cutbacks","tracking","360","any edge","by team",47.9685452162516,0.0127008252634358
+"with_cutbacks","tracking","360","any edge","flat",47.7719528178244,0.0124609589044043
+"with_cutbacks","tracking","360","clear edge","by team",30.5373525557012,0.0127008252634358
+"with_cutbacks","tracking","360","clear edge","flat",30.3407601572739,0.0124609589044043
+"with_cutbacks","tracking","distance only","any edge","by team",51.1140235910878,0.014966720502379
+"with_cutbacks","tracking","distance only","any edge","flat",50.9829619921363,0.0147324279541871
+"with_cutbacks","tracking","distance only","clear edge","by team",30.6684141546527,0.014966720502379
+"with_cutbacks","tracking","distance only","clear edge","flat",30.4062909567497,0.0147324279541871

@@ -38,6 +38,55 @@ in_shooting_cone <- function(px, py, shot_x, shot_y) {
   !(neg & pos)
 }
 
+#' Share of the goalmouth the keeper leaves open, seen from a point.
+#'
+#' The keeper is treated as a body `reach` yards either side of where they
+#' stand, square on to the player. Whatever part of the goal's angle that body
+#' covers is closed; the rest is what a shot could actually go into. A keeper
+#' who has come out to the shooter closes most of the goal for the shooter and
+#' very little of it for a teammate square of them, which is the whole point.
+#' Vectorised over px, py. NA keeper coordinates give NA.
+open_goal_share <- function(px, py, kx, ky, reach = 1) {
+  a <- atan2(POST_LEFT - py, GOAL_X - px)
+  b <- atan2(POST_RIGHT - py, GOAL_X - px)
+  lo <- pmin(a, b)
+  hi <- pmax(a, b)
+  kd <- sqrt((kx - px)^2 + (ky - py)^2)
+  ka <- atan2(ky - py, kx - px)
+  half <- atan(reach / pmax(kd, reach))
+  blocked <- pmax(0, pmin(hi, ka + half) - pmax(lo, ka - half))
+  blocked <- ifelse(kx <= px, 0, blocked)
+  (hi - lo - blocked) / (hi - lo)
+}
+
+#' How many opponents stand in the lane of a pass.
+#'
+#' An opponent counts if they are within `width` yards of the straight line
+#' from the ball to the receiver, somewhere between the first and last tenth of
+#' it. Standing right on top of the passer or the receiver is pressure, which
+#' is measured separately.
+lane_blockers <- function(opp_x, opp_y, x0, y0, x1, y1, width = 1.5) {
+  if (length(opp_x) == 0) return(0L)
+  dx <- x1 - x0
+  dy <- y1 - y0
+  L2 <- dx^2 + dy^2
+  if (L2 == 0) return(0L)
+  t <- ((opp_x - x0) * dx + (opp_y - y0) * dy) / L2
+  d <- sqrt((opp_x - (x0 + t * dx))^2 + (opp_y - (y0 + t * dy))^2)
+  sum(t >= 0.1 & t <= 0.9 & d <= width)
+}
+
+#' The x position beyond which a receiver would be offside.
+#'
+#' Level with or behind the ball is onside, and so is anyone not past the
+#' second-last opponent, the keeper usually being the last. Only the opponents
+#' the camera caught can be checked, so a defender off screen can make a
+#' receiver who was onside look offside.
+offside_line <- function(opp_x, ball_x) {
+  second_last <- if (length(opp_x) >= 2) sort(opp_x, decreasing = TRUE)[2] else -Inf
+  max(second_last, ball_x, PITCH_LENGTH / 2)
+}
+
 #' Area of a simple polygon given as a two column matrix of vertices.
 polygon_area <- function(pts) {
   n <- nrow(pts)

@@ -10,7 +10,8 @@
 ## regression specification curve, which is what specr was built for. The
 ## harness in R/multiverse.R covers the other half, the choices made while
 ## constructing the numbers in the first place, which specr does not model. See
-## Harder (2020) on extending the multiverse to data construction decisions.
+## Steegen et al. (2016) on the data multiverse, the versions of the data that
+## defensible processing choices produce.
 
 source("R/geometry.R")
 source("R/statsbomb.R")

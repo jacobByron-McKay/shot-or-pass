@@ -71,6 +71,9 @@ print(data.frame(decision = sens$decision, levels = sens$levels,
 ## is the sampling interval on the same quantity?
 mid <- score_shots(shots, with_context, OPTION_POOLS$ahead,
                    COMPLETION_MODELS$pressure, use_context = TRUE)
+## Seeded so the interval, and the ratio below, print the same on every run.
+## 2023 is the tournament year; any fixed number would do.
+set.seed(2023)
 boot <- bootstrap_spread(mid, function(d) 100 * mean(d$edge > 0), n = 2000)
 cat("\nsampling: 95% interval on one fixed specification is",
     sprintf("[%.1f%%, %.1f%%], width %.1f points", boot$low, boot$high, boot$width), "\n")

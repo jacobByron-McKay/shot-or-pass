@@ -41,8 +41,8 @@ without noticing decides the headline.
 ## Definitional spread against sampling noise
 
 Holding one specification fixed and resampling the shots, the 95 per cent
-interval on that share is 4.9 points wide. The spread across specifications is
-14.6 points, which is 2.97 times larger. Reporting the confidence interval and not
+interval on that share is 4.8 points wide. The spread across specifications is
+14.6 points, which is 3.05 times larger. Reporting the confidence interval and not
 the specification range describes the smaller of the two sources of error.
 
 This is not a general law. On a simpler question, counting the same tournament,
