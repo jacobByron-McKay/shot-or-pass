@@ -102,6 +102,44 @@ To value a pass it has to price a shot from where the receiver is standing,
 where nobody actually shot, and a small model does that sensibly and can be
 read.
 
+## The decision score
+
+The same machinery, turned on the player. For every shot, was a better pass
+on? A player's should-have-passed share mostly says where they shoot from, so
+the score is that share less what a typical player shooting from the same
+spots would show: distance, angle and headers, as a second model. Below zero
+is the better decider. Read it against players in the same position.
+
+It runs on the event freeze frames that come with every shot, not the 360
+frames, so it works on every league and tournament in the open data. On all
+32,999 women's shots with a frame, 13 competition-seasons, on the model after
+every fix:
+
+| | |
+| --- | --- |
+| Split-half, players with 40+ shots | 0.69 |
+| One season against the next, 51 pairs | 0.71 |
+| Shots before a score can be trusted (0.7) | about 38 |
+| Split-half within position | 0.43 |
+| Shots to trust it within position | about 109 |
+
+Finishing, goals minus xG, needs about 880 shots on the same test. The
+decision score is readable in a season.
+
+The within-position line is the one to remember. Forwards come out as good
+deciders and defenders as poor ones, partly just from where they stand, and
+that difference is very stable. Separating two forwards from each other is
+harder, and needs two or three seasons of shots rather than one.
+
+The men's version, 18,960 shots from the Premier League and La Liga in
+2015/16 and Leverkusen's 2023/24, agrees at 0.60 and needs about 50 shots.
+One season per league, so there is no season to season test, and it is kept
+separate from the women's rather than pooled.
+
+`analysis/08-decision-score.R` writes `reports/decision-score.md` through the
+same gate as the findings, and the player tables into `cache/`, which is not
+committed.
+
 ## Running it
 
 Needs R and `jsonlite`. `04` also needs `specr`, and `07` needs `multiverse`.
@@ -127,6 +165,15 @@ source("analysis/06-multiverse-fast.R")    # the 36 and the 96 again, without th
 source("analysis/07-multiverse-package.R") # the 96 again, with the multiverse package
 ```
 
+The decision score reads every shot in the open data, not just the World Cup,
+so it has a pull of its own. About 1,300 women's matches and 800 men's are
+downloaded once and only the shots kept:
+
+```
+python analysis/decision/pull.py          # both, or name one: women, men
+Rscript analysis/08-decision-score.R      # about 7 minutes
+```
+
 The Python version, the boba run and the timings are in `python/`, with their
 own README.
 
@@ -146,9 +193,11 @@ Rscript tests/testthat.R
 | `R/value.R` | The shot model, the views of pass completion, the ways to decide what counts as an option, and what a miss or a failed pass still leads to |
 | `R/multiverse.R` | Runs every combination of choices and reports which ones matter |
 | `R/report.R` | Checks that every figure in the written findings is one the analysis produced |
-| `analysis/` | The scripts, in order, and the team corner ratings in `analysis/corners/` |
+| `R/decision.R` | The decision score: event freeze frames, the location model, the player table, and the reliability tests |
+| `analysis/` | The scripts, in order, the team corner ratings in `analysis/corners/`, and the shot pull for the decision score in `analysis/decision/` |
 | `python/` | The same analysis in Python, checked against R shot by shot, and the boba run |
 | `reports/findings.md` | Generated, not hand-written |
+| `reports/decision-score.md` | Generated, the same way |
 
 ## The gate on the write-up
 
@@ -258,7 +307,8 @@ One tournament, 1,566 shots. Wide enough for a spread, not wide enough for a law
 
 ## Data
 
-StatsBomb open data: https://github.com/statsbomb/open-data
+StatsBomb open data: https://github.com/statsbomb/open-data, which now lives at
+https://github.com/hudl/open-data (the old address still serves the files)
 
 Free for public use. If you publish anything based on it, credit StatsBomb as
 the source. Nothing from it is committed here; the scripts fetch what they need.
